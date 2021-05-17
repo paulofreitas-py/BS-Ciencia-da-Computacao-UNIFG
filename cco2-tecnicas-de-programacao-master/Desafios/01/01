@@ -1,0 +1,4 @@
+Faça um programa que armazene as informações de 3 jogadores de futebol. 
+Cada jogador é identificado pelo numero da sua camisa, pelo seu peso, e altura e pela inicial do seu nome. 
+O programa devera ler todas as informações e imprimir a inicial do jogador mais baixo e o numero mais pesado. 
+Use structs para resolver este exercício.
