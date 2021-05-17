@@ -25,3 +25,10 @@
   <img alt="Java" src="https://img.shields.io/badge/java%20-bf360c.svg?&style=for-the-badge&logo=java&ogoColor=white"/>
   <br>
 </p>
+
+## 📚 Links Uteis
+
+🔖 [Notion - Anotações](https://www.notion.so)<br>
+🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)<br>
+🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
+🔖 [Geogebra](https://www.geogebra.org/)<br>
