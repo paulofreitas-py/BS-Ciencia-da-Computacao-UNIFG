@@ -22,6 +22,6 @@
   <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
   <img alt="C" src="https://img.shields.io/badge/C%20-%2314354C.svg?&style=for-the-badge&logo=C&logoColor=white"/>
   <img alt="C++" src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
-  <img alt="Java" src="https://img.shields.io/badge/java%20-%BB0000.svg?&style=for-the-badge&logo=java&ogoColor=white"/>
+  <img alt="Java" src="https://img.shields.io/badge/java%20-bf360c.svg?&style=for-the-badge&logo=java&ogoColor=white"/>
   <br>
 </p>
