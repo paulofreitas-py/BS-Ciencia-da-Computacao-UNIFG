@@ -15,8 +15,6 @@
 
 ## 🛠 Tecnologias
 <br>
-<p align="center">
-  
   <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
   <img alt="Java" src="https://img.shields.io/badge/java%20-bf360c.svg?&style=for-the-badge&logo=java&ogoColor=white"/>
@@ -35,6 +33,7 @@
 
 <table>
   <tr>
+    <td align="center">
       <a href="https://github.com/paulofreitas-py">
         <img src="https://avatars.githubusercontent.com/u/42820569?v=4" width="100px;" alt="Foto do Paulo Freitas no GitHub"/><br>
         <sub>
