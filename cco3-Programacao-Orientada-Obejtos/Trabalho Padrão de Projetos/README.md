@@ -8,13 +8,10 @@
 <img src="https://paulofreitasdev.files.wordpress.com/2021/05/2.png">
 
 ## 📚 Links do Trabalho
-
+🔖 [Apresentação Online](https://www.canva.com/design/DAEeYRcWMww/vEzN8KKuHziW3cbLhNs6uA/view?utm_content=DAEeYRcWMww&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)<br>
+🔖 [Video](https://vimeo.com/551890901)<br>
 🔖 [PDF do Slide](hhttps://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/cco3-Programacao-Orientada-Obejtos/Trabalho%20Padr%C3%A3o%20de%20Projetos/_SLIDE-POO.pdf)<br>
 🔖 [Cadeira -Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
-## 🛠 Video
-
-<iframe src="https://player.vimeo.com/video/551890901" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/551890901">POO Grupo 04 - Brigde, composite e object adapter</a> from <a href="https://vimeo.com/user116395519">PauloFreitas</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## 🛠 Tecnologias
 <br>
@@ -31,5 +28,5 @@
 🔖 [Notion - Anotações](https://www.notion.so)<br>
 🔖 [IDE - Java](https://www.online-ide.com/)<br>
 🔖 [Canva - Slide](https://www.canva.com/)<br>
-🔖 [IDE Java](https://www.online-ide.com/)<br>
+🔖 [Vimeo - Videos](https://vimeo.com/)<br>
 🔖 [IDE Java](https://www.online-ide.com/)<br>
