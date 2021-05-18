@@ -49,4 +49,12 @@
         </sub>
       </a><br>
     </td>
+ <td align="center">
+      <a href="https://github.com/cristianm9">
+        <img src="https://avatars.githubusercontent.com/u/75005667?v=4" width="100px;" alt=""/><br>
+        <sub>
+          <b>Cristian</b>
+        </sub>
+      </a><br>
+    </td>
     </table>

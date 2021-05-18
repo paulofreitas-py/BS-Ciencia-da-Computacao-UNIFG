@@ -32,3 +32,5 @@
 🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)<br>
 🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
 🔖 [Geogebra](https://www.geogebra.org/)<br>
+🔖 [IDE - Java](https://www.online-ide.com/)<br>
+🔖 [Canva - Slide](https://www.canva.com/)<br>
