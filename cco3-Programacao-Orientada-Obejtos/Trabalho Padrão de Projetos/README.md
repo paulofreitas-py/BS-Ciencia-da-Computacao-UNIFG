@@ -35,7 +35,6 @@
 
 <table>
   <tr>
-    <td align="center">
       <a href="https://github.com/paulofreitas-py">
         <img src="https://avatars.githubusercontent.com/u/42820569?v=4" width="100px;" alt="Foto do Paulo Freitas no GitHub"/><br>
         <sub>
