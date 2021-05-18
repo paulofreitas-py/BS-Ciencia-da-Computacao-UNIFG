@@ -42,10 +42,10 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com">
-        <img src="" width="100px;" alt=""/><br>
+      <a href="https://github.com/jhonathannn">
+        <img src="https://avatars.githubusercontent.com/u/75005667?v=4" width="100px;" alt=""/><br>
         <sub>
-          <b>Paulo Uranio</b>
+          <b>Jhonathan</b>
         </sub>
       </a><br>
     </td>
