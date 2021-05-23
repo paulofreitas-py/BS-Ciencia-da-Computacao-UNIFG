@@ -1,0 +1,98 @@
+EXERCICIOS DE SQL – NORTHWIND
+
+
+1- Quais as informações existentes na tabela de categorias?
+SELECT *
+FROM Categorias;
+2- Liste o Código do Produto e o Nome do Produto.
+SELECT [CódigoDoProduto], [NomeDoProduto]
+FROM Produtos;
+
+3- Liste o Código do Produto e o Nome do Produto em ordem alfabética.
+SELECT [CódigoDoProduto], [NomeDoProduto]
+FROM Produtos
+ORDER BY [NomeDoProduto];
+
+4- Liste o Código do Produto e o Nome do Produto em ordem decrescente de preço 
+unitário.
+SELECT [Produtos].[CódigoDoProduto],
+[Produtos].[NomeDoProduto], [PreçoUnitário]
+FROM Produtos
+ORDER BY [Produtos].[PreçoUnitário] DESC;
+
+
+5- Liste o Código do Produto e o Nome do Produto acima de R$ 50,00 em ordem 
+decrescente de preço.
+
+
+6- Liste o Código do Produto e o Nome do Produto em ordem crescente dos produtos 
+maior ou igual a R$ 50,00 e menor ou igual a R$ 200,00.
+
+
+7- Liste o Código do Produto, Nome do Produto e o Código da Categoria dos produtos 
+pertencentes às categorias 2,4 e 6.
+
+8- Liste o Código do Produto, Nome do Produto e o Código da Categoria dos produtos 
+pertencentes à categoria 5.
+
+9- Liste o Código do Produto, Nome do Produto e o Código da Categoria dos produtos 
+pertencentes, com nome do produto igual a “TOFU”.
+
+10- Liste o Código do Produto, Nome do Produto e o Código da Categoria dos 
+produtos iniciados pela letra “T”.
+
+11- Liste o Código do Produto, Nome do Produto e o Código da Categoria dos 
+produtos com 4 letras.
+
+12- Qual o maior Código de Produto?
+
+13- Sabendo-se que o valor em estoque de cada produto é dado pela fórmula:
+(UNIDADES EM ESTOQUE + UNIDADES PERDAIDAS) * PREÇO UNITÁRIO,
+informar qual o valor total do estoque.
+
+14- Listar o Nome do Produto e o Valor de Estoque desse produto, classificado pelo 
+Valor.
+
+15- Listar o Menor Preço, o Maior Preço e o Preço Médio dos produtos da categoria 5.
+
+16- Listar o Menor Preço, o Maior Preço e o Preço Médio dos produtos de todas as 
+categorias.
+
+17- Listar os campos Menor Preço, o Maior Preço e o Preço Médio dos produtos de 
+todas as categorias em cada categoria.
+
+18- Quantos produtos têm cada categoria?
+
+19- Quantos produtos eu tenho?
+
+20- De cada Fornecedor, quantos produtos ele fornece de cada categoria?21- Quantos produtos de cada mercadoria cada fornecedor fornece, das categorias 2, 
+4 ou 6?
+
+22- Quais os Fornecedores que fornecem mais de 3 Produtos?
+
+23- Qual o Produto mais caro?
+
+4- Quais os produtos que são da mesma categoria do produto TOFU?
+
+25- Todos os produtos da categoria TOFU menos ele.
+
+26- A quantidade de itens e o valor de cada pedido.
+
+27- Os produtos que tem o Preço Unitário maior que o Preço Médio.
+
+28- Todos os produtos cujo Preço Unitário seja maior que o Preço Médio da categoria 
+do produto mais caro.
+
+29- Todos os pedidos de clientes de país de origem BRASIL.
+
+30- Qual o produto mais caro enviado para o BRASIL?
+
+31- Liste as categorias que tenham mais produtos do que a categoria do produto mais 
+barato.
+
+32- Listar o nome do funcionário que tenha o mesmo supervisor que o funcionário 6.
+
+33- Listar o nome do supervisor do funcionário 6
+
+34- Liste o código da categoria, o nome da categoria e a quantidade de produtos na 
+categoria.
