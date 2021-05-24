@@ -1,8 +1,9 @@
 # BS Ciência da Computação
 
 <h1 align="center">
-<img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style=for-the-badge&logo=mysql"/> 
-<img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style=for-the-badge&logo=mysql"/>
+<img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style&logo=ghost"/>
+<img src="https://img.shields.io/github/license/mashape/apistatus.svg"/>
+<img src=https://img.shields.io/github/languages/top/badges/shields.svg/>
 </h1>
 
 <h2 align="center">
