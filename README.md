@@ -3,7 +3,8 @@
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style&logo=ghost"/>
 <img src="https://img.shields.io/github/license/mashape/apistatus.svg"/>
-<img src=https://img.shields.io/github/languages/top/badges/shields.svg/>
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/paulofreitas-py/BS-Ciencia-da-Computacao">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/paulofreitas-py/BS-Ciencia-da-Computacao?style=social">
 </h1>
 
 <h2 align="center">
@@ -22,7 +23,7 @@
 🔖 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)<br>
 🔖 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
 
-## 🛠 Tecnologias
+## 🛠 Tecnologias Usadas
 <br>
 <p align="center">
   
@@ -30,6 +31,7 @@
   <img alt="C" src="https://img.shields.io/badge/C%20-%2314354C.svg?&style=for-the-badge&logo=C&logoColor=white"/>
   <img alt="C++" src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
   <img alt="Java" src="https://img.shields.io/badge/java%20-bf360c.svg?&style=for-the-badge&logo=java&ogoColor=white"/>
+   <img alt="Java" src="https://img.shields.io/badge/mysql%20-ff7f50.svg?&style=for-the-badge&logo=mysql&ogoColor=white"/>
   <br>
 </p>
 
