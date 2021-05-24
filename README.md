@@ -1,7 +1,13 @@
-# BS-Ciencia-da-Computacão
+# BS Ciência da Computação
+
 <h1 align="center">
-  <img src="https://paulofreitasdev.files.wordpress.com/2021/05/intro.png">
+<img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style=for-the-badge&logo=mysql"/> 
+<img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style=for-the-badge&logo=mysql"/>
 </h1>
+
+<h2 align="center">
+  <img src="https://paulofreitasdev.files.wordpress.com/2021/05/intro.png">
+</h2>
 
 ### Repositorio dedicado a todos os projetos/cadeiras praticas do curso Ciência da Computação UNIFG 2020-2024
 
