@@ -80,9 +80,9 @@ A fragmentação pode ser de 2 formas:
 ---
 
 ### Livros de Referência
-- [Sistemas de Banco de Dados - Elmasri e Navathe - 6ª Edicao](https://github.com/brunocampos01/banco-de-dados/blob/master/livros/Sistemas%20de%20Banco%20de%20Dados%20navathe%206%C2%AA%20Edicao.pdf)
-- [Sistemas de Gerenciamento de Banco de Dados - Ramakrishnan e Gehrke - 6ª Edicao](https://github.com/brunocampos01/banco-de-dados/blob/master/livros/Sistemas%20de%20Gerenciamento%20de%20Banco%20de%20Dados%20-%203%C2%AA%20Ed.pdf)
-- [Use a cabeca - SQL](https://github.com/brunocampos01/banco-de-dados/blob/master/livros/Use%20a%20Cabeca%20-%20SQL.pdf)
+- [Sistemas de Banco de Dados - Elmasri e Navathe - 6ª Edicao](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/cco3-Banco-de-Dados/Livros/Sistemas%20de%20Banco%20de%20Dados%20navathe%206%C2%AA%20Edicao.pdf)
+- [Sistemas de Gerenciamento de Banco de Dados - Ramakrishnan e Gehrke - 6ª Edicao](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/cco3-Banco-de-Dados/Livros/Sistemas%20de%20Gerenciamento%20de%20Banco%20de%20Dados%20-%203%C2%AA%20Ed.pdf)
+- [Use a cabeca - SQL](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/cco3-Banco-de-Dados/Livros/Use%20a%20Cabeca%20-%20SQL.pdf)
 
 ---
 
