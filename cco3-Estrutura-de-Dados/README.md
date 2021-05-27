@@ -8,5 +8,3 @@ Repositorio Acadêmico do Curso Ciência da Computação da Disciplina Estrutura
 - Swift: online.swiftplayground.run
 - Rust: play.rust-lang.org
 - Generic: code.sololearn.com
-
-
