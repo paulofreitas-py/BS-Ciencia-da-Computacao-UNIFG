@@ -5,7 +5,7 @@ Repositorio Acadêmico do Curso Ciência da Computação da Disciplina Estrutura
 ## Lista de Tipos de Algoritmos
 (alguns para praticar)
 
-[1]: https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra
+ https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra
 [2]: https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall
 [3]: https://pt.wikipedia.org/wiki/Árvore_binária_de_busca
 [4]: https://pt.wikipedia.org/wiki/Árvore_binária
