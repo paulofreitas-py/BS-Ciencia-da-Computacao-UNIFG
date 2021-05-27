@@ -62,7 +62,7 @@ WHERE CódigoDaCategoria=5;
 
 -- 16- Listar o Menor Preço, o Maior Preço e o Preço Médio dos produtos de todas as categorias.
 
-17- Listar os campos Menor Preço, o Maior Preço e o Preço Médio dos produtos dae 
+17- Listar os campos Menor Preço, o Maior Preço e o Preço Médio dos produtos de 
 todas as categorias em cada categoria.
 
 18- Quantos produtos têm cada categoria?
