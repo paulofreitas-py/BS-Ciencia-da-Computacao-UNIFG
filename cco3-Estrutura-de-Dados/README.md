@@ -3,10 +3,10 @@ Repositorio Acadêmico do Curso Ciência da Computação da Disciplina Estrutura
 
 🎡 Playgrounds
 
-    C++: cpp.sh
-    Go: play.golang.org
-    Swift: online.swiftplayground.run
-    Rust: play.rust-lang.org
-    Generic: code.sololearn.com
+- C++: cpp.sh
+- Go: play.golang.org
+- Swift: online.swiftplayground.run
+- Rust: play.rust-lang.org
+- Generic: code.sololearn.com
 
 
