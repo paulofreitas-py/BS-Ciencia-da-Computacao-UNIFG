@@ -1,1 +1,0 @@
-o compilador iria atribuir o valor 10 à variável num e a expressão num=10 iria retornar 10, fazendo com que o nosso valor de num fosse adulterado e fazendo com que a declaração fosse executada sempre. Este problema gera erros frequentes entre iniciantes e, portanto, muita atenção deve ser tomada.
