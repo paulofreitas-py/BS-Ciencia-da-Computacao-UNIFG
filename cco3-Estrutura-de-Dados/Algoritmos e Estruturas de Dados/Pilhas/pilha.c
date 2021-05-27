@@ -51,6 +51,5 @@ int main() {
     pilha = remover(pilha);
     pilha = remover(pilha);
     printf("Valor no topo: %d\n", pilha->dado);
-
     return 1;
 }
