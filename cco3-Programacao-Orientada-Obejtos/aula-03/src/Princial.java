@@ -32,6 +32,8 @@ public class Principal {
 		System.out.println("Meu carrinho vai parando:"+meuCarrinho.frear());
 		System.out.println("Meu carrinho desligando :"+meuCarrinho.desligar());
 		
+		System.out.println(x); 
+		System.out.print
 	}
 
 }
