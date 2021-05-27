@@ -45,12 +45,12 @@
 
 ## 🎡 Playgrounds
 
-  [C++](cpp.sh)<br>
-  [Go](play.golang.org)<br>
-  [Swift](online.swiftplayground.run)<br>
-  [Rust](play.rust-lang.org)<br>
+  [C++](https://www.cpp.sh)<br>
+  [Go](https://www.play.golang.org)<br>
+  [Swift](https://www.online.swiftplayground.run)<br>
+  [Rust](https://www.play.rust-lang.org)<br>
   [Java](https://www.online-ide.com/)<br>
-  [SoloLearn](code.sololearn.com)<br>
+  [SoloLearn](https://www.code.sololearn.com)<br>
 
   ## Contribuidor
 
