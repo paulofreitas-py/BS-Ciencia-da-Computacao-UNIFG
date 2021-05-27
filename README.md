@@ -51,10 +51,13 @@
   - Rust play.rust-lang.org
   - Java https://online-ide.com/
   - SoloLearn - code.sololearn.com
-
+  
+[![Paulo Freita's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=paulofreitas-py)](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao)
   ## Contribuidor
 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br /><sub><b>Paulo Freitas</b></sub></a><br />
     </tr>
+
+    
