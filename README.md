@@ -41,5 +41,20 @@
 🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)<br>
 🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
 🔖 [Geogebra](https://www.geogebra.org/)<br>
-🔖 [IDE - Java](https://www.online-ide.com/)<br>
 🔖 [Canva - Slide](https://www.canva.com/)<br>
+
+## 🎡 Playgrounds
+
+  [C++](cpp.sh)<br>
+  [Go](play.golang.org)<br>
+  [Swift](online.swiftplayground.run)<br>
+  [Rust](play.rust-lang.org)<br>
+  [Java](https://www.online-ide.com/)<br>
+  [SoloLearn](code.sololearn.com)<br>
+
+  ## Contribuidor
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br /><sub><b>Paulo Freitas</b></sub></a><br />
+    </tr>
