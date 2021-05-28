@@ -53,6 +53,7 @@
   - SoloLearn - code.sololearn.com
   
 [![Paulo Freita's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=paulofreitas-py)](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao)
+
   ## Contribuidor
 
 <table>
