@@ -54,6 +54,7 @@
   
 [![Paulo Freita's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=paulofreitas-py)](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao)
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=paulofreitas-py)](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao)
   ## Contribuidor
 
 <table>
