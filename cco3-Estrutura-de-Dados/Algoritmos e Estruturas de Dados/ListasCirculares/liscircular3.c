@@ -30,3 +30,86 @@ Celula *inserirC(int valor, Celula *lista) {
     //retornar o primeiro elemento
     return lista;
 }
+void exibirC(Celula *lista) {
+    Celula *p;
+
+    if (!lista) {
+        printf("Lista vazia!\n");
+        return;
+    }
+    for (p = lista; p->prox != lista; p = p->prox) { //percurso clássico em listas circulares
+        printf("%d\t", p->valor);
+    }
+    printf("%d\n", p->valor);
+}
+
+int contarElementosC(Celula *lista) { //lista contém o endereco do 1o elemento
+   Celula *p;
+   int contador = 0;
+
+    if (!lista) {
+        return contador;
+    }
+    for (p = lista; p->prox != lista; p = p->prox) { //percurso clássico em listas circulares
+        contador++;
+    } 
+    
+    return ++contador;
+}
+
+int somarElementosC(Celula *lista) { //lista contém o endereco do 1o elemento
+   Celula *p;
+   int soma = 0;
+
+    if (!lista) {
+        return soma;
+    }
+    for (p = lista; p->prox != lista; p = p->prox) { //percurso clássico em listas circulares
+        soma = soma + p->valor;
+    } 
+    soma = soma + p->valor;
+
+    return soma;
+}
+
+char *regiaoValorC(int valor, Celula *lista) {
+    if (!lista) return "Lista vazia"; 
+
+    Celula *p;
+    
+    for (p = lista; p->prox != lista  ; p = p->prox) { //percurso clássico: exibir, contar, localizar, excluir, ....
+        if (valor == p->valor) {
+            //verificar se é o primeiro
+            if (p == lista) return "na primeira posição\n";
+           
+            // //verificar se é o último
+            // if (p->prox == lista) return "na última posição\n";
+           
+            //se não é o primeiro e nem o último, só pode estar em alguma posição do meio
+            return "em alguma posição do meio\n";
+        }
+    }
+    if (valor == p->valor) {
+        //verificar se é o primeiro
+        if (p == lista) return "na primeira posição\n";
+        
+        //verificar se é o último
+        if (p->prox == lista) return "na última posição\n";
+        
+        //se não é o primeiro e nem o último, só pode estar em alguma posição do meio
+        return "em alguma posição do meio\n";
+    }
+    return "não encontrado";
+}
+
+int main() {
+    Celula *listaC = NULL;
+    int valor;
+    system("clear"); //system("cls");
+    do {
+        printf("Informe um valor inteiro para a lista (-1 sai do programa): ");
+        scanf("%d", &valor);
+        if (valor == -1) break;
+
+        listaC = inserirC(valor,listaC);
+    } while (1);
