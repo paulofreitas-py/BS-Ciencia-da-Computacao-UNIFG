@@ -11,7 +11,7 @@ class CollectionTeste{
     vetor.addElement(2);
 
     hashT.put(1, "Paulo");
-    hashT.put(2, "Urânio");
+    hashT.put(2, "Freitas");
 
     System.out.println(arr[0]);
     System.out.println(vetor.elementAt(0));
