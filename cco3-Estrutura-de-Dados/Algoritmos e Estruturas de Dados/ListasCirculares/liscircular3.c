@@ -113,3 +113,16 @@ int main() {
 
         listaC = inserirC(valor,listaC);
     } while (1);
+
+     exibirC(listaC);
+
+    printf("A lista circular possui %d elementos\n", contarElementosC(listaC));
+    printf("Soma dos elementos da lista: %d\n", somarElementosC(listaC));
+
+    printf("Informe um valor de pesquisa: ");
+    scanf("%d", &valor);
+
+    printf("O valor está: %s\n", regiaoValorC(valor, listaC));
+
+    return 1;
+}
