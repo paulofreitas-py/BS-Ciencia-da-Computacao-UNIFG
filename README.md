@@ -1,7 +1,7 @@
 # BS Ciência da Computação
 
 <h1 align="center">
-<img src="https://img.shields.io/static/v1?label=CCO&message=Banco-de-dados&color=ff6347&style&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=CCO&message=Ciência%20da%20Computação&color=ff6347&style&logo=ghost"/>
 <img src="https://img.shields.io/github/license/mashape/apistatus.svg"/>
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/paulofreitas-py/BS-Ciencia-da-Computacao">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/paulofreitas-py/BS-Ciencia-da-Computacao?style=social">
@@ -22,7 +22,9 @@
 🔖 [Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Banco-de-Dados)<br>
 🔖 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)<br>
 🔖 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
-
+🔖 [Engenharia de Software]()<br>
+🔖 [Paradigmas de Linguagem de Programação]()<br>
+🔖 [Microcontroladores e IOT]()<br>
 ## 🛠 Tecnologias Usadas
 <br>
 <p align="center">
