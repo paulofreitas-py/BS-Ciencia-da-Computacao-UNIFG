@@ -1,4 +1,4 @@
-# CCO4 Microcontroladores e IOT
+# CCO4 Paradigmas de Linguagem de Programação
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![License](https://img.shields.io/badge/SQL-learning-green.svg)
 ![License](https://img.shields.io/badge/UNIFG-Engenharia%20de%20Software-blue.svg)
@@ -21,7 +21,7 @@ xx
 🔖 [Geogebra](https://www.geogebra.org/)<br>
 🔖 [Canva - Slide](https://www.canva.com/)<br>
 
-  
+  ## Professor
   ## Contribuidor
 
 <table>
