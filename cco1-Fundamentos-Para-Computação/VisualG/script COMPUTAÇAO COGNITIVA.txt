@@ -1,0 +1,53 @@
+script COMPUTAÇAO COGNITIVA
+
+O aluno deve submeter uma pesquisa bibliográfica, segundo normas técnicas vigentes ou um padrão de pesquisa conhecido, que tem por objetivo pesquisar possíveis áreas da computação onde aplica-se a computação cognitiva. Tal pesquisa deve englobar bibliografias em inglês e apresentar exemplos práticos dessa aplicação;
+
+
+
+
+A ciência da computação começou com a era das máquinas tabuláveis ​​e depois passou para as programáveis. No entanto, o mundo de hoje está passando por uma transformação radical da informação. Por um lado, a avalanche maciça de dados, o chamado Big Data, faz com que os sistemas exijam inteligência adicional para extrair conhecimento válido dos dados. Por outro lado, exigimos mais computadores todos os dias para nos entender e se comunicar melhor conosco. A computação cognitiva, a nova era da computação, chega a responder a essas necessidades: sistemas que usam a inteligência biológica como modelo para estabelecer um relacionamento mais satisfatório com os seres humanos. Linguagem natural, capacidade de se mover em um mundo ambíguo e aprendizado são características dos sistemas cognitivos, um dos quais, o IBM Watson é o exemplo mais revelador hoje desse novo paradigma.
+
+A computação cognitiva, definida como aqueles sistemas de informação e aplicativos que podem perceber sons, imagens e sinais sensoriais, entender a linguagem natural e relacionar conhecimentos, além de agir, emulando o comportamento humano, chamou a atenção não apenas de tecnólogos e pesquisadores. , mas também de executivos seniores. Analisamos seus usos, suas principais características e seu impacto nos negócios.
+
+Existem soluções de negócios cada vez mais inovadoras baseadas na computação cognitiva, que é o de investidores
+Eles estão financiando startups dedicadas a esse tipo de computação e as empresas de tecnologia estão se movendo rapidamente para criar valor nessa área emergente. Um exemplo disso são as recentes aquisições feitas pelo Google, Apple e Facebook, que refletem o interesse dessas empresas em tecnologias de computação cognitiva, como robótica, sistemas especialistas, visão computacional e reconhecimento facial, fala e gesto.
+
+Além disso, mais e mais empresas estão criando novos laboratórios de pesquisa dedicados à inovação com essas tecnologias, e o número de fornecedores relacionados aumentou drasticamente. Apesar de essas tecnologias também enfrentarem certos obstáculos, como em qualquer nova ferramenta que promete transformar o mundo, os benefícios da computação cognitiva são significativos e incluem melhor qualidade e consistência dos serviços, além de custos mais baixos, além de uma melhoria na educação e tratamentos médicos e na capacidade de tomar decisões melhores, mais rápidas e mais informadas nos negócios.
+
+Mas essa nova tendência não se refere a uma única tecnologia ou aplicação. Seja carros sem motorista, smartphones com assistentes virtuais ou soluções de detecção de tendências, entre muitos outros exemplos, a computação cognitiva é um campo rico e diversificado. Deve-se entender que existem inúmeras ferramentas relacionadas e que essas tecnologias precisam ser integradas em soluções mais abrangentes.
+
+
+
+
+Como funciona? As chaves: perceber, entender e agir
+
+A computação cognitiva consiste em várias tecnologias que permitem aos sistemas e aplicativos de informação perceber o mundo e coletar dados, analisar e entender as informações coletadas, tomar decisões e fornecer orientações com base nas análises realizadas de forma independente.
+
+Além disso, as ferramentas de computação cognitiva são capazes de aprender com suas experiências ...
+
+
+
+
+
+Em que consiste?
+A computação cognitiva é o resultado de três ramos de pesquisa; nanotecnologia, supercomputação e neurociência. Foi desenvolvido por um grupo de pesquisadores da IBM, que conseguiram criar um protótipo chamado Watson.
+
+É o primeiro sistema de computação cognitiva, capaz de processar informações da linguagem natural humana e gerar uma hipótese interagindo com os seres humanos; todas as respostas obtidas são registradas em seu banco de dados e depois reproduzidas.
+
+
+
+
+
+IBM Watson e computação cognitiva
+
+Tradicionalmente, a computação analisa dados em formatos estruturados, algo semelhante a formulários, compostos por determinados campos como telefone, nome, endereço, entre outros. No entanto, Watson prospera com o que as pessoas consomem.
+
+Por exemplo, os textos, artigos, livros e tudo o que lemos na Internet, Watson é capaz de reconhecê-lo imediatamente, por isso ele usa um modelo probabilístico que gradualmente aprende com o feedback das pessoas em linguagem natural.
+
+Watson inaugura as novas possibilidades no relacionamento homem-máquina, pois analisa os dados contidos em artigos, revistas, ensaios, livros, entre outros. É isso que permite distinguir-se do resto dos sistemas de computadores com inteligência artificial, que foi desenvolvida até agora pelas mãos do homem.
+
+Uma das características mais marcantes do Watson é que ele não precisa de programação para operar, tudo o faz automaticamente.
+
+ 
+
+Na computação cognitiva, a quantidade de informações que as pessoas produzem é muito maior do que nossa capacidade de consumi-las. Nesse caso, o protótipo criado pela IBM é capaz de nos ajudar com a velocidade do consumo de informações.

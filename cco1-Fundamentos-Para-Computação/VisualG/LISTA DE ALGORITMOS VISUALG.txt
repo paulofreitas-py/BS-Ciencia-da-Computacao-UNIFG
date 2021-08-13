@@ -1,0 +1,478 @@
+LISTA DE ALGORITMOS VISUALG
+
+
+Faça um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando "maior de idade" e "menor de idade" para cada pessoa. Considere a idade a partir de 18 anos como maior de idade.
+
+var
+x, idade: inteiro
+
+inicio
+
+para x de 1 ate 75 faca
+     escreva("Digite a idade: ")
+     leia(idade)
+     se idade >= 18 entao
+        escreval("Fulano é maior de idade!")
+     fimse
+fimpara
+
+fimalgoritmo
+
+Escrever um algoritmo que leia o nome e o sexo de 56 pessoas e informe o nome e se ela é homem ou mulher. No final informe total de homens e de mulheres.
+
+var
+nome, sexo: caractere
+x, h, m: inteiro
+
+inicio
+
+para x de 1 ate 5 faca
+     limpatela
+     escreva("Digite o nome: ")
+     leia(nome)
+     escreva("H - Homem ou M - Mulher: ")
+     leia(sexo)
+     escolha sexo
+         caso "H"
+              h <- h + 1
+         caso "M"
+              m <- m + 1
+         outrocaso
+              escreval("Sexo só pode ser H ou M!")
+     fimescolha
+fimpara
+limpatela
+escreval("Foram inseridos",h," Homens")
+escreval("Foram inseridos",m," Mulheres")
+
+fimalgoritmo
+
+
+A concessionária de veículos CARANGO VELHO está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente de vários carros. O desconto deverá ser calculado de acordo com o ano do veículo. Até 2000 - 12% e acima de 2000 - 7%. O sistema deverá perguntar se deseja continuar calculando desconto até que a resposta seja: \u201c(N) Não\u201d . Informar total de carros com ano até 2000 e total geral.
+
+var
+programa, opc: caractere
+ano, total, total2000: inteiro
+valor, valorFinal, desconto: real
+
+inicio
+
+programa <- "S"
+enquanto programa <> "N" faca
+   limpatela
+   escreva("Digite o valor do carro: ")
+   leia(valor)
+   escreva("Digite o ano do carro: ")
+   leia(ano)
+   se ano <= 2000 entao
+      desconto <- 0.12
+      total2000 <- total2000 + 1
+      total <- total + 1
+   senao
+      desconto <- 0.07
+      total <- total + 1
+   fimse
+   desconto <- desconto * valor
+   valorFinal <- valor - desconto
+   escreval("O valor do carro com desconto é de: ",valorFinal)
+   escreval("")
+   escreva("Deseja continuar calculando? (S) Sim - (N) Não - ")
+   leia(opc)
+   escolha opc
+   caso "S"
+      programa <- "S"
+   caso "N"
+      programa <- "N"
+   outrocaso
+      programa <- "S"
+      limpatela
+      escreval("As opções disponíveis são apenas S ou N!!!")
+      leia(opc)
+   fimescolha
+fimenquanto
+escreval("Foram calculados",total2000," carro(s) com ano até 2000")
+escreval("Total geral: ",total)
+
+fimalgoritmo
+
+
+Escrever um algoritmo que leia os dados de N pessoas (nome, sexo, idade e saúde) e informe se está apta ou não para cumprir o serviço militar obrigatório. Informe os totais.
+var
+programa, idade, apto: inteiro
+nome, sexo, saude, opc: caractere
+totApto, total: inteiro
+inicio
+
+programa <- 1
+enquanto programa = 1 faca
+    limpatela
+    apto <- 1
+    saude <- "B"
+    total <- total + 1
+    escreva("Digite o nome: ")
+    leia(nome)
+    escreva("Digite o sexo (M/F): ")
+    leia(sexo)
+    escreva("Digite a idade: ")
+    leia(idade)
+    se idade < 18 entao
+        apto <- 0
+    fimse
+    escreval("Digite o estado de saúde: ")
+    escreva("(B) Bom - (R) - Ruim - ")
+    leia(saude)
+    se saude = "R" entao
+        apto <- 0
+    senao
+        se saude <> "B" entao
+            apto <- 0
+        fimse
+    fimse
+    se apto = 1 entao
+        totApto <- totApto + 1
+    fimse
+    escreval("Deseja continuar filtrando (S/N)? ")
+    leia(opc)
+    se opc = "N" entao
+        programa <- 0
+    fimse
+fimenquanto
+limpatela
+escreval("Resumo geral: ")
+escreval("Foram filtrados: ",total," pessoas")
+escreval("Aptos: ",totApto)
+escreval("")
+
+fimalgoritmo
+
+
+Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe media de preço de custo e do preço de venda.
+ 
+var
+x: inteiro
+precoVenda, precoCusto: real
+mediaCusto, mediaVenda: real
+
+inicio
+// Seção de Comandos 
+para x de 1 ate 40 faca
+    limpatela
+    escreva("Digite o preço de custo: ")
+    leia(precoCusto)
+    mediaCusto <- mediaCusto + precoCusto
+    escreva("Digite o preço de venda: ")
+    leia(precoVenda)
+    mediaVenda <- mediaVenda + precoVenda
+    
+    se precoVenda < precoCusto entao
+        escreval("Houve prejuízo na venda")
+    senao
+        se precoVenda = precoCusto entao
+            escreval("Houve empate na venda")
+        fimse
+        se precoVenda > precoCusto entao
+            escreval("Houve lucro na venda")
+        fimse
+    fimse
+    
+fimpara
+
+limpatela
+escreval("A média de preço de custo foi: ",mediaCusto/40)
+escreval("A média de preço de venda foi: ",mediaVenda/40)
+
+fimalgoritmo
+
+
+Faça um algoritmo que receba um número e mostre uma mensagem caso este número sege maior que 80, menor que 25 ou igual a 40.
+
+var
+numero: inteiro
+
+inicio
+
+escreva("Digite um número: ")
+leia(numero)
+
+se numero > 80 entao
+    escreval("O número é maior que 80")
+senao
+    se numero < 25 entao
+        escreval("O número é menor que 25")
+    senao
+        se numero = 40 entao
+            escreval("O número é igual a 40")
+        fimse
+    fimse
+fimse
+
+fimalgoritmo
+
+
+Faça um algoritmo que receba N números e mostre positivo, negativo ou zero para cada número.
+
+var
+programa, numero: inteiro
+opc: caractere
+
+inicio
+
+programa <- 1
+enquanto programa = 1 faca
+    limpatela
+    escreva("Digite um número: ")
+    leia(numero)
+    se numero > 0 entao
+        escreval("Positivo")
+    senao
+        se numero = 0 entao
+            escreval("O número é igual a 0")
+        fimse
+        se numero < 0 entao
+            escreval("Negativo")
+        fimse
+    fimse
+
+    escreva("Deseja finalizar? (S/N) ")
+    leia(opc)
+    se opc = "S" entao
+        programa <- 0
+    fimse
+
+fimenquanto
+
+fimalgoritmo
+
+
+ Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais imprima uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe qual número é o maior, e uma mensagem que são diferentes.
+ 
+var
+num1, num2: inteiro
+
+inicio
+
+escreva("Digite o primeiro número: ")
+leia(num1)
+escreva("Digite o segundo número: ")
+leia(num2)
+se num1 = num2 entao
+    escreval("Os números são iguais!")
+senao
+    se num1 > num2 entao
+        escreval("O número",num1," é maior que o número",num2)
+        escreval("Eles são diferentes!!!")
+    senao
+        escreval("O número",num2," é maior que o número",num1)
+        escreval("Eles são diferentes!!!")
+    fimse
+fimse
+
+fimalgoritmo
+
+
+Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número que não esteja neste intervalo, exibir mensagem: número inválido.
+
+var
+numero: inteiro
+inicio
+
+escreva("Digite um número de 1 a 5: ")
+leia(numero)
+escolha numero
+caso 1
+   escreval("Um")
+caso 2
+   escreval("Dois")
+caso 3
+   escreval("Três")
+caso 4
+   escreval("Quatro")
+caso 5
+   escreval("Cinco")
+outrocaso
+   escreval("Número Inválido!!!")
+fimescolha
+
+fimalgoritmo
+
+A concessionária de veículos CARANGO está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente. O desconto deverá ser calculado sobre o valor do veículo de acordo com o combustível (álcool \u2013 25%, gasolina \u2013 21% ou diesel \u201314%). Com valor do veículo zero encerra entrada de dados. Informe total de desconto e total pago pelos clientes.
+
+var
+desconto, valorPago, valorVeiculo: real
+totalDesconto, totalPago: real
+combustivel, opc: caractere
+
+inicio
+
+valorVeiculo <- 1
+opc <- "x"
+enquanto valorVeiculo <> 0 faca
+    limpatela
+    escreva("Digite o valor do veículo: ")
+    leia(valorVeiculo)
+    se valorVeiculo <> 0 entao
+        escreval("Digite o combustível")
+        escreva("(G)asolina / (A)lcool / (D)iesel: ")
+        leia(combustivel)
+        escolha combustivel
+            caso "A"
+                desconto <- 0.25 * valorVeiculo
+            caso "G"
+                desconto <- 0.21 * valorVeiculo
+            caso "D"
+                desconto <- 0.14 * valorVeiculo
+            outrocaso
+                escreval("Combustível inválido!")
+                escreval("Não haverão descontos!")
+                desconto <- 0
+        fimescolha
+        valorPago <- valorVeiculo - desconto
+        totalDesconto <- totalDesconto + desconto
+        totalPago <- totalPago + valorPago
+        escreval("Desconto no veículo: ",desconto)
+        escreval("Valor total a ser pago: ",valorPago)
+        escreval("Tecle enter para continuar...")
+        leia(opc)
+    fimse
+fimenquanto
+limpatela
+escreval("Resumo geral: ")
+escreval("Total de descontos: ",totalDesconto)
+escreval("Total Pago pelos clientes: ",totalPago)
+
+fimalgoritmo
+
+
+Escrever um algoritmo para uma empresa que decide dar um reajuste a seus 584 funcionários de acordo com os
+            // seguintes critérios:
+               // a) 50% para aqueles que ganham menos do que três salários mínimos;
+               // b) 20% para aqueles que ganham entre três até dez salários mínimos;
+               // c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
+               // d) 10% para os demais funcionários.
+            // Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule o seu novo salário reajustado. Escrever o nome do funcionário, o reajuste e seu novo salário. Calcule quanto à empresa vai aumentar sua folha de pagamento.
+
+var
+salarioMinimo, novoSalario, reajuste, reajusteTotal, folha, novaFolha, calc, salario: real
+nome, opc: caractere
+x: inteiro
+
+inicio
+
+opc <- "x"
+escreval(" Sistema de reajuste salarial ")
+escreva("Digite o valor atual do salário mínimo: ")
+leia(salarioMinimo)
+para x de 1 ate 584 faca
+    limpatela
+    escreva("Digite o nome: ")
+    leia(nome)
+    escreva("Digite o salário: ")
+    leia(salario)
+    calc <- salarioMinimo * 3
+    se salario < calc entao
+        reajuste <- 0.50 // Reajuste de 50%
+        reajusteTotal <- reajuste + (reajuste * salario) // Valor total de reajuste
+        folha <- folha + salario // Folha de pagamento antiga
+        novoSalario <- salario + (reajuste * salario) // Salário reajustado
+        novaFolha <- novaFolha + novoSalario // Nova folha de pagamento
+        
+        limpatela
+        escreval(">>> Nome: ",nome)
+        escreval(">>> Reajuste = 50%: ",reajuste*salario)
+        escreval(">>> Novo salário: ",novoSalario)
+        escreval(">>> Tecle enter para continuar...")
+        leia(opc)
+    senao
+        calc <- salarioMinimo * 10
+        se salario <= calc entao
+            reajuste <- 0.20 // Reajuste de 20%
+            reajusteTotal <- reajuste + (reajuste * salario) // Valor total de reajuste
+            folha <- folha + salario // Folha de pagamento antiga
+            novoSalario <- salario + (reajuste * salario) // Salário reajustado
+            novaFolha <- novaFolha + novoSalario // Nova folha de pagamento
+
+            limpatela
+            escreval(">>> Nome: ",nome)
+            escreval(">>> Reajuste = 20%: ",reajuste*salario)
+            escreval(">>> Novo salário: ",novoSalario)
+            escreval(">>> Tecle enter para continuar...")
+            leia(opc)
+        senao
+            calc <- salarioMinimo * 20
+            se salario <= calc entao
+                reajuste <- 0.15 // Reajuste de 15%
+                reajusteTotal <- reajuste + (reajuste * salario) // Valor total de reajuste
+                folha <- folha + salario // Folha de pagamento antiga
+                novoSalario <- salario + (reajuste * salario) // Salário reajustado
+                novaFolha <- novaFolha + novoSalario // Nova folha de pagamento
+
+                limpatela
+                escreval(">>> Nome: ",nome)
+                escreval(">>> Reajuste = 15%: ",reajuste*salario)
+                escreval(">>> Novo salário: ",novoSalario)
+                escreval(">>> Tecle enter para continuar...")
+                leia(opc)
+            senao
+                reajuste <- 0.10 // Reajuste de 10%
+                reajusteTotal <- reajuste + (reajuste * salario) // Valor total de reajuste
+                folha <- folha + salario // Folha de pagamento antiga
+                novoSalario <- salario + (reajuste * salario) // Salário reajustado
+                novaFolha <- novaFolha + novoSalario // Nova folha de pagamento
+
+                limpatela
+                escreval(">>> Nome: ",nome)
+                escreval(">>> Reajuste = 10%: ",reajuste*salario)
+                escreval(">>> Novo salário: ",novoSalario)
+                escreval(">>> Tecle enter para continuar...")
+                leia(opc)
+            fimse
+        fimse
+    fimse
+fimpara
+escreval("")
+escreval("A empresa aumentou a folha de pagamento em:",novaFolha - folha," Reais")
+
+fimalgoritmo
+
+Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido
+
+var
+mes: inteiro
+
+inicio
+
+escreval("Digite o número do mês: ")
+leia(mes)
+escolha mes
+caso 1
+    escreval("Janeiro")
+caso 2
+    escreval("Fevereiro")
+caso 3
+    escreval("Março")
+caso 4
+    escreval("Abril")
+caso 5
+    escreval("Maio")
+caso 6
+    escreval("Junho")
+caso 7
+    escreval("Julho")
+caso 8
+    escreval("Agosto")
+caso 9
+    escreval("Setembro")
+caso 10
+    escreval("Outubro")
+caso 11
+    escreval("Novembro")
+caso 12
+    escreval("Dezembro")
+outrocaso
+    escreval("Mês inválido!")
+fimescolha
+
+fimalgoritmo
+
+
+

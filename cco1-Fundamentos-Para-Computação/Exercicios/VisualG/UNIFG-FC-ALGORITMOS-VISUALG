@@ -1,0 +1,219 @@
+UNIFG CIÊNCIA DA COMPUTÇÃO 
+CC0-1-2020.1
+ALUNOS
+
+
+
+
+
+Ex6.Elaborar um algoritmo que efetue a apresentação do valor da conversão em 
+real (R$) de um valor lido em dólar (US$). 
+O algoritmo deverá solicitar o valor da cotação do dólar e também a quantidade de dólares disponíveis com o usuário. 
+
+var
+
+rs, us, cotacao, dolaDisponivel: real
+
+inicio
+
+escreval("========= Cotação do Dólar ==========")
+escreva("Qual a cotação atual do dólar? ")
+leia(cotacao)
+escreva("Quantos dólares você possui? ")
+leia(us)
+rs <- us/cotacao
+limpatela
+escreval(us," Dólares equivalem á: ",rs," R$")
+fimalgoritmo
+___________________________________________________________________________________________________
+
+
+Ex7. Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.
+Considere fixo o juro da poupança em 0,70% a. m.
+
+var
+correcao, deposito: real
+
+inicio
+
+escreval("Sistema de depósito do Banco do Oeste")
+escreva("Digite o valor depositado: ")
+leia(deposito)
+correcao <- 0.7 * deposito
+escreva("O rendimento do depósito após um mês é de: ",deposito+correcao)
+
+fimalgoritmo
+
+___________________________________________________________________________________________________
+
+Ex8. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a percentagem do distribuidor e dos impostos (aplicados, primeiro os impostos sobre o custo de fábrica, e depois a percentagem do distribuidor sobre o resultado). Supondo que a percentagem do distribuidor seja de 28% e os impostos 45%. Escrever um algoritmo que leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo.
+
+var
+custoFabrica, custoFinal: real
+
+inicio
+
+escreva("Informe o custo de fábrica do veículo: ")
+leia(custoFabrica)
+custoFinal <- custoFabrica + (0.28 * custoFabrica) + (0.45 * custoFabrica)
+custoFinal <- custoFinal + (0.45 * custoFinal)
+escreval ("O custo para o consumidor final é de: ",custoFinal)
+
+fimalgoritmo
+
+
+___________________________________________________________________________________________________
+
+Ex9. Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10.
+ 
+var
+
+numero: inteiro
+
+inicio
+
+escreva("Digite um número: ")
+leia(numero)
+se numero > 10 entao
+escreval("O número é maior que 10")
+fimse
+fimalgoritmo
+
+___________________________________________________________________________________________________
+
+
+Ex10. Escrever um algoritmo que leia dois valores inteiro distintos e informe qual é o maior.
+
+ var
+a, b: inteiro
+inicio
+// Seção de Comandos
+escreval ("Informe o primeiro valor: ")
+leia (a)
+escreval ("Informe o segundo valor: ")
+leia (b)
+se a > b entao
+escreval ("O valor ", a, " é maior que o valor ", b)
+senao
+escreval ("O valor ", b, " é maior que o valor ", a)
+fimse
+
+fimalgoritmo
+
+
+___________________________________________________________________________________________________
+
+
+Ex11. Faça um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando “maior de idade” e “menor de idade” para cada pessoa.
+Considere a idade a partir de 18 anos como maior de idade.
+
+ var
+
+idade, maior, menor, cont: inteiro
+
+inicio
+
+cont <- 0
+enquanto cont < 75 faca
+   escreval ("Informe sua idade: ")
+   leia (idade)
+   se idade <= 17 entao
+      escreval ("Você é menor de idade!")
+   senao
+      escreval ("Você é maior de idade!")
+   fimse
+   cont <- cont + 1
+fimenquanto
+
+fimalgoritmo
+
+
+Ou
+
+
+var
+x, idade: inteiro
+
+inicio
+
+para x de 1 ate 75 faca
+   escreva("Digite sua idade: ")
+   leia(idade)
+   se idade >= 18 entao
+      escreval("Groot é maior de idade!")
+   fimse
+fimpara
+
+fimalgoritmo
+___________________________________________________________________________________________________
+
+Ex12. Ler 80 números e ao final informar quantos número(s) est(á)ão no intervalo entre 10 (inclusive) e 150 (inclusive).
+
+ var
+
+ numero, intervalo, contador: real
+
+inicio
+
+para intervalo de 1 ate 80 faca
+escreval("Informe um número: ")
+leia(numero)
+se numero >= 10 entao
+se numero <= 150 entao
+contador <- contador + 1
+fimse
+fimse
+fimpara
+escreval ("Foram digitados ",contador," números no intrvalo entre 10 e 150.")
+
+fimalgoritmo
+___________________________________________________________________________________________________
+
+Ex13. 
+
+var
+
+nome, sexo: caractere
+
+i, m, f : inteiro
+
+inicio
+
+m <- 0
+
+f <- 0
+
+para i <- 1 ate 56 faca
+
+ escreva("Digite seu nome: ")
+
+ leia(nome)
+
+ escreva("Digite seu sexo (m/f): ")
+
+ leia(sexo)
+
+ se (sexo = "f") entao
+
+   escreval("Seu nome é: ", nome, " e seu sexo é: feminino")
+
+   f <- f + 1
+
+ senao
+
+   escreval("Seu nome é: ", nome, " e seu sexo é: masculino")
+
+   m <- m + 1
+
+ fimse
+
+fimpara
+
+escreval("Total de mulheres: ", f)
+
+escreval("Total de homens: ", m)
+
+fimalgoritmo
+
+___________________________________________________________________________________________________
+
