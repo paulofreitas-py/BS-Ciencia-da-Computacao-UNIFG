@@ -1,0 +1,81 @@
+#Leitores e Escritores - Python
+import _thread
+import time, random
+import threading
+
+class BancoDados:
+   contLeitor = 0
+   mutex      = threading.Semaphore(1)
+   bd         = threading.Semaphore(1)
+
+   def acquireReadLock(self):
+      global contLeitor
+      self.mutex.acquire()
+      self.contLeitor += 1
+
+      # É o primeiro leitor?
+      if self.contLeitor == 1:
+         self.bd.acquire()
+
+      self.mutex.release()
+
+   def releaseReadLock(self):
+      global contLeitor
+      self.mutex.acquire()
+      self.contLeitor -= 1
+
+      # É o último leitor?
+      if self.contLeitor == 0:
+         self.bd.release()
+
+      self.mutex.release()
+
+   def acquireWriteLock(self):
+      self.bd.acquire()
+
+   def releaseWriteLock(self):
+      self.bd.release()
+
+bd = BancoDados()
+
+def escritor(e):
+   while True:
+      time.sleep(random.randint(1, 5))
+      bd.acquireWriteLock()
+      print ("Escritor ",e ," - escrevendo...")
+      time.sleep(random.randint(1, 5))
+      bd.releaseWriteLock()
+      print ("Escritor ",e ," - parou de escrever.")
+
+def leitor(l):
+   while True:
+      time.sleep(random.randint(1, 10))
+      bd.acquireReadLock()
+      print ("Leitor ",l ," - lendo...")
+      time.sleep(random.randint(1, 5))
+      bd.releaseReadLock()
+      print ("Leitor ",l ," - parou de ler.")
+
+for i in range(2):
+   print ("Escritor", i)
+   _thread.start_new_thread(escritor, tuple([i]))
+for i in range(3):
+   print ("Leitor", i)
+   _thread.start_new_thread(leitor, tuple([i]))
+
+
+while 1: pass
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Priorizamos acesso aos escritores. Foi declarada uma variável inteira , que foi inicializada com 0, justamente para poder contar os números de processos que esperam para escrever no arquivo. 
+Ex: int pro = 0;
+Quando o proc = 1, isto significa que um processo está escrevendo, e nenhum está esperando, até então.
+Quando duas variáveis de semáforos mx e 1, inicializadas em 1.
+obtém permissão do leitor , depois faz restrição ao acesso a variável, incrementando números de leitores ativos e se for o primeiro leitor que tiver ativo bloqueia escritores, logo depois libera o acesso a nl, isso tudo para obter a leitura do arquivo.
+Após a leitura ele faz com que apenas um leitor altere a variável “nl”.
+se for o  último leitor a terminar a leitura, libera o acesso por escritores, ele usa para libera o acesso de leitores a variável nl.
+Ele faz com que 1 escritor altere a variável para variável de espera , ele incrementa números de escritores na fila de espera. Se por acaso for o primeiro escritor, fecha o semáforo de leitores e libera semáforos da variável responsável pelo número de escritores, e depois fecha o semáforo de escritores.
+Quando é alterado o arquivo ele abre o semáforo para a escrita e fecha o semáforo para alteração do número de escritores, logo em seguida decrementa número de escritores na fila, se o processo ele estava no estado de escrevendo , ele libera a leitura , e libera acesso para a variável número de escritores.  
+ Para evitar que leitores continuamente concorrentes bloqueiem todos os escritores, você deverá criar um novo semáforo 1, e inicializar com 1 estando aberto.
+Para fechar p(1) pelo primeiro escritor para um lote de escritores concorrentes. Este semáforo quando fechado, bloqueia todos os leitores, esta solução não garante prioridade absoluta para os escritores. Para os escritores obterem prioridade total para os escritores poderíamos criar um semáforo mz inicializado em 1. Colocando operações P(mz) e V(mz), respectivamente antes de P(r) e depois de V(r), no código dos leitores, com isso a fila do semáforo r passará a ter no máximo um processo leitor!

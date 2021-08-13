@@ -1,0 +1,10 @@
+EXERCÍCIO: 05. Execução Assíncrona concorrente
+
+Suponha que uma universidade queira mostrar o quão politicamente correta ela é, aplicando a doutrina “Separado mas igual é inerentemente desigual” da Suprema Corte dos EUA para o gênero, assim como a raça, terminando sua prática de longa data de banheiros segregados por gênero no campus.
+No entanto, como uma concessão para a tradição, ela decreta que se uma mulher está em um banheiro, outras mulheres podem entrar, mas nenhum homem, e vice-versa. Um sinal com uma placa móvel na porta de cada banheiro indica em quais dos três estados possíveis ele se encontra atualmente:
+•	 Vazio.
+•	 Mulheres presentes.
+•	 Homens presentes.
+Em alguma linguagem de programação de que você goste, escreva as seguintes rotinas: woman_wants_to_enter, man_wants_to_enter, woman_leaves, man_leaves. Você pode usar as técnicas de sincronização e contadores que quiser.
+
+--------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,132 @@
+:host{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.options{
+    height: 20%;
+    margin-top: 3%;
+}
+.scope-itens{
+    width: 70%;
+    height: 50%;
+}
+.queue{
+    width: 100%;
+    height: 60px;
+    background-color: #daecff;
+    padding: 21px;
+    display: flex;
+    border: solid 5px #cce1f7;
+}
+
+button:hover{
+    transform: scale(1.08);
+    transition: 0.1s
+}
+
+.info-flex{
+    margin-top: 10%;
+    font-size: larger;
+    font-family: monospace;
+    color: #8ea0b3;
+}
+
+.bathrrom-text{
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: #7ec4ff;
+    font-weight: 600;
+}
+
+.queue-text{
+    margin: 0;
+    font-family: sans-serif;
+    color: #b3cce6;
+    font-weight: 600;
+}
+
+.man-btn{
+    cursor: pointer;
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #606afd;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-bottom: solid 5px #5761ff;
+    box-shadow: 0px 7px 9px 0px #c7c7c7;
+    margin: 5px;
+}
+
+.woman-btn{
+    cursor: pointer;
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(255, 140, 179);
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(231, 127, 162);
+    box-shadow: 0px 7px 9px 0px #c7c7c7;
+    margin: 5px;
+}
+
+.element{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+
+    animation-name: intro;
+    animation-duration: .2s
+}
+.bathroom{
+    background: #7ec4ff;
+    width: 210px;
+    height: 70px;
+    padding: 5px;
+    align-self: normal;
+    display: flex;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: #7d9fbb;
+}
+
+.woman{
+    background-color: rgb(255, 140, 179)
+}
+
+.man{
+    background-color: rgb(96, 104, 218)
+}
+
+
+.change-view{
+    background-color: #7d9fbb;
+    border: navajowhite;
+    color: white;
+    padding: 9px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}

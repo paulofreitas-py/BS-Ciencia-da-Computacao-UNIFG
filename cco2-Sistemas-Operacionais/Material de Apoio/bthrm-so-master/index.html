@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="functions.js"></script>
+    <title>Banheiros S.O 2019.1</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="info-flex">
+            Sistemas Operacionais - 2019
+            Felipe Andrew Alves
+        </div>
+        <div class="options">
+            <button class="man-btn" onclick="addPeople(true)">Adicionar Homem</button>
+            <button class="woman-btn" onclick="addPeople(false)">Adicionar Mulher</button>
+        </div>
+        <div class="scope-itens">
+            
+            <p class="queue-text">Fila de Espera</p>
+            <div id="queue-div" class="queue"></div>
+            
+            <div class="bathroom" id="bathroom-div">
+                <div class="box" id="box-0"></div>
+                <div class="box" id="box-1"></div>
+                <div class="box" id="box-2"></div>
+            </div>
+            
+            <p class="bathrrom-text">Banheiro</p>
+        </div>
+</body>
+</html>
