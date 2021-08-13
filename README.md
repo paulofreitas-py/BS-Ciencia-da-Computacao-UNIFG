@@ -16,15 +16,28 @@
 <img src="https://paulofreitasdev.files.wordpress.com/2021/05/intro2.png">
 
 ## 📚 Cadeiras 2020-2021
-
+### 📚 1° Periodo 2020.1
 🔖 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao)<br>
+🔖 Fundamentos Para Computação<br>
+🔖 Sistemas Digitais<br>
+🔖 Matematica<br>
+### 📚 2° Periodo 2020.2
 🔖 [Técnicas de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Tecnicas-de-Programacao)<br>
+🔖 Sistemas Operacionais<br>
+🔖 Interface Humano Computador<br>
+🔖 Arquitetura e Organização de<br>
+### 📚 3° Periodo 2021.1
 🔖 [Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Banco-de-Dados)<br>
 🔖 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)<br>
 🔖 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
+🔖 Cálculo Aplicado - Uma Variável<br>
+
+### 📚 4° Periodo 2021.2
 🔖 [Engenharia de Software]()<br>
 🔖 [Paradigmas de Linguagem de Programação]()<br>
 🔖 [Microcontroladores e IOT]()<br>
+🔖 Algebra Linear Computacional<br>
+
 ## 🛠 Tecnologias Usadas
 <br>
 <p align="center">
@@ -53,14 +66,10 @@
   - Rust play.rust-lang.org
   - Java https://online-ide.com/
   - SoloLearn - code.sololearn.com
-  
-[![Paulo Freita's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=paulofreitasdev)](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao)
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=paulofreitas-py)](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao)
-  ## Contribuidor
+    ## Contribuidor
 
 <table>
     <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br /><sub><b>Paulo Freitas</b></sub></a></br>
   
 ## Ajude o Universitario a pagar seu Café
-<p align="center">><a href="https://www.buymeacoffee.com/paulofreitas.py"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulofreitas.py" /></a></p><br>
+<p align="center"><a href="https://www.buymeacoffee.com/paulofreitas.py"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulofreitas.py" /></a></p><br>
