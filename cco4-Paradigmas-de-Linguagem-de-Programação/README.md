@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/Java-learning-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-Paradigmas%20de%20Linguagem%20de%20Programação-yellow.svg)
 
-repositorio academico da cadeira Microcontroladores e IOT do 4º periodo de Ciência da Computação 
+Repositorio academico da cadeira Paradigmas de Linguagem de Programação do 4º periodo de Ciência da Computação 
 
 ## Ementa do Curso
 xx
