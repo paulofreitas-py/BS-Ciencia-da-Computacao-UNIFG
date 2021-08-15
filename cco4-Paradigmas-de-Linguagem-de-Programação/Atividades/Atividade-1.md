@@ -7,10 +7,11 @@
 
 [Atividade I](https://alunofgcom-my.sharepoint.com/:b:/g/personal/alu202003566_alunofg_com_br/ERUAcobx_OlJpRfqzv1eSXUB7fKpWOCaiSHFN4qygu-csw?e=mUb7KB)</br>
 
-É praticamente impossível ensinar boa programação aos alunos que tiveram 
+### 1 - Comente a seguinte citação:
+*É praticamente impossível ensinar boa programação aos alunos que tiveram 
 uma exposição prévia ao BASIC; como programadores potenciais eles são 
 mentalmente mutilados além da além da esperança de regeneração. –  
-E. Dijkstra 
+E. Dijkstra*
 
 Resposta:
 Programadores com exposição ao BASIC tem o costume de terem mais 
@@ -18,7 +19,6 @@ complicações quanto aos erros em seus programas, contudo, isso não significa
 que não podem ter um bom relacionamento com outras linguagens, pelo 
 contrário, podem ter mais facilidade por estarem acostumados com algo mais 
 complexo.
-
 ### 2 – Dê uma instrução de exemplo em sua língua favorita que é particularmente  ilegível. Por exemplo, o que significa a expressão C(*p++ = *q++) ?
 
 
