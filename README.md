@@ -15,26 +15,26 @@
 ### Repositorio dedicado a todos os projetos/cadeiras praticas do curso Ciência da Computação UNIFG 2020-2024
 ## >  Cadeiras 2020-2021
 ### 📚 1° Periodo 2020.1
-🔖 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao)<br>
-🔖 Fundamentos Para Computação<br>
-🔖 Sistemas Digitais<br>
-🔖 Matematica<br>
+👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao)<br>
+📖 [Fundamentos Para Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Fundamentos-Para-Computa%C3%A7%C3%A3o)<br>
+📖 [Sistemas Digitais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Sistemas-Digitais)<br>
+📐 [Matematica](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Matematica)<br>
 ### 📚 2° Periodo 2020.2
-🔖 [Técnicas de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Tecnicas-de-Programacao)<br>
-🔖 Sistemas Operacionais<br>
-🔖 Interface Humano Computador<br>
-🔖 Arquitetura e Organização de<br>
+👨‍💻 [Técnicas de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Tecnicas-de-Programacao)<br>
+🔖 [Sistemas Operacionais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Sistemas-Operacionais)<br>
+📖 [Interface Humano Computador](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Interface-Homem-Computador)<br>
+📖 [Arquitetura e Organização de](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Arquitetura-e-Organizacao-de-Computadores)<br>
 ### 📚 3° Periodo 2021.1
-🔖 [Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Banco-de-Dados)<br>
-🔖 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)<br>
-🔖 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
-🔖 Cálculo Aplicado - Uma Variável<br>
+👨‍💻 [Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Banco-de-Dados)<br>
+👨‍💻 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)<br>
+👨‍💻 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
+ 📐[Cálculo Aplicado - Uma Variável](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Calculo-Aplicado)<br>
 
 ### 📚 4° Periodo 2021.2
-🔖 [Engenharia de Software]()<br>
-🔖 [Paradigmas de Linguagem de Programação]()<br>
-🔖 [Microcontroladores e IOT]()<br>
-🔖 Algebra Linear Computacional<br>
+🔖 [Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Engenharia-de-Software)<br>
+🔖 [Paradigmas de Linguagem de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Paradigmas-de-Linguagem-de-Programa%C3%A7%C3%A3o)<br>
+🔖 [Microcontroladores e IOT](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Microcontroladores-e-IOT)<br>
+📐 Algebra Linear Computacional<br>
 
 ## 🛠 Tecnologias Usadas
 <br>
@@ -50,11 +50,14 @@
 
 ## 📚 Links Uteis
 
-🔖 [Notion - Anotações](https://www.notion.so)<br>
-🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)<br>
-🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
-🔖 [Geogebra](https://www.geogebra.org/)<br>
-🔖 [Canva - Slide](https://www.canva.com/)<br>
+💻 [Notion - Anotações](https://www.notion.so)<br>
+💻 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)<br>
+💻 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
+💻 [Geogebra](https://www.geogebra.org/)<br>
+💻 [Canva - Slide](https://www.canva.com/)<br>
+### 🖥 IDEs
+🖥 [Visual Studio Code]()<br>
+🖥 [Eclipse]()<br>
 
 ## 🎡 Playgrounds
 
