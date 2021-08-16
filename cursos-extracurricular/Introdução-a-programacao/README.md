@@ -5,8 +5,9 @@
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/paulofreitas-py/BS-Ciencia-da-Computacao?style=social">
 </h1>
 
+## <h2 align="center"> [Voltar](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cursos-extracurricular)</h2>
 # Introdução á Programação
-<img alt="GitHub forks" src="">
+<img alt="GitHub forks" src="https://paulofreitasdev.files.wordpress.com/2021/08/progra.png">
 
 ## Sobre o Curso 
 O curso de **Introdução à Programação** foi construído especialmente para os estudantes das disciplinas-âncora de **Lógica de Programação**, **Algoritmos e Programação**, **Lógica e Ambiente de Programação** e **Lógica para Redes de Computadores**.
