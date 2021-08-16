@@ -9,7 +9,7 @@
 
 ## Cursos Extra Curriculares
 
-[Introdução à Programação]()<br>
+[Introdução à Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cursos-extracurricular/Introdu%C3%A7%C3%A3o-a-programacao)<br>
 [Interpretação de Gráficos e Tabelas]()<br>
 [Análise de Dados]()
 [Fundamentos de Física I]() 
