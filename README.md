@@ -57,17 +57,17 @@
 🖥 [VisualG](http://visualg3.com.br/)<br>
 🖥 [Code::Blocks](https://www.codeblocks.org/)<br>
 🖥 [DevC++](https://dev-cpp.com/)<br>
-
 🖥 []()<br>
 ## 🎡 Playgrounds
 
-  - C++ cpp.sh
-  - Go https://play.golang.org
-  - Swift https://online.swiftplayground.run
-  - Rust play.rust-lang.org
-  - Java https://online-ide.com/
-  - SoloLearn - code.sololearn.com
-    ## Contribuidor
+  - [C++ Shell](cpp.sh)<br>
+  - [Go ](https://play.golang.org)<br>
+  - [Swift ](https://online.swiftplayground.run)<br>
+  - [Rust ](play.rust-lang.org)<br>
+  - [Java Ide Online ](https://online-ide.com/)<br>
+  - [SoloLearn](code.sololearn.com)<br>
+  
+## 👾Contribuidor
 
 <table>
     <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br /><sub><b>Paulo Freitas</b></sub></a></br>
