@@ -1,7 +1,7 @@
 # BS Ciência da Computação
 
 <h1 align="center">
-<img src="https://img.shields.io/static/v1?label=CCO&message=Ciência%20da%20Computação&color=ff6347&style&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=CCO&message=Ciencia%20da%20Computacao&color=ff6347&style&logo=ghost"/>
 <img src="https://img.shields.io/github/license/mashape/apistatus.svg"/>
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/paulofreitas-py/BS-Ciencia-da-Computacao">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/paulofreitas-py/BS-Ciencia-da-Computacao?style=social">
