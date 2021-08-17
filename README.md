@@ -49,7 +49,10 @@
 💻 [Orancle](https://www.oracle.com/br/downloads/)<br>
 💻 [Java](https://java.com/en/download/)<br>
 💻 [Microsfot Access](https://www.microsoft.com/pt-br/microsoft-365/p/access/cfq7ttc0k7q8)<br>
-💻 []()<br>
+💻 
+[]()<br>
+[]()<br>
+[]()<br>
 ### 🖥 IDEs
 🖥 [Visual Studio Code](https://code.visualstudio.com/)<br>
 🖥 [intellij IDEA](https://www.jetbrains.com/idea/)<br>
@@ -57,16 +60,21 @@
 🖥 [VisualG](http://visualg3.com.br/)<br>
 🖥 [Code::Blocks](https://www.codeblocks.org/)<br>
 🖥 [DevC++](https://dev-cpp.com/)<br>
-🖥 []()<br>
+🖥 [Arduino CC](https://www.arduino.cc/en/software)<br>
+🖥 [Simulador de Portas Logicas](https://purainfo.com.br/dica-simulador-de-portas-logicas-logic-gate-simulator/)<br>
+[]()<br>
+[]()<br>
+[]()<br>
 ## 🎡 Playgrounds
 
-  - [C++ Shell](cpp.sh)<br>
-  - [Go ](https://play.golang.org)<br>
-  - [Swift ](https://online.swiftplayground.run)<br>
-  - [Rust ](play.rust-lang.org)<br>
-  - [Java Ide Online ](https://online-ide.com/)<br>
-  - [SoloLearn](code.sololearn.com)<br>
-  
+- [C++ Shell](cpp.sh)<br>
+- [Go ](https://play.golang.org)<br>
+- [Swift ](https://online.swiftplayground.run)<br>
+- [Rust ](play.rust-lang.org)<br>
+- [Java Ide Online ](https://online-ide.com/)<br>
+- [SoloLearn](code.sololearn.com)<br>
+- [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)<br>
+- [Readme Editor](https://readme.so/pt)<br>
 ## 👾Contribuidor
 
 <table>
@@ -74,3 +82,4 @@
   
 ## Ajude o Universitario a pagar seu Café
 <p align="center"><a href="https://www.buymeacoffee.com/paulofreitas.py"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulofreitas.py" /></a></p><br>
+
