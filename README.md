@@ -44,10 +44,21 @@
 💻 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
 💻 [Geogebra](https://www.geogebra.org/)<br>
 💻 [Canva - Slide](https://www.canva.com/)<br>
+💻 [SQL Server 2019](https://www.microsoft.com/pt-br/sql-server/sql-server-2019)<br>
+💻 [MySQL](https://www.mysql.com/)<br>
+💻 [Orancle](https://www.oracle.com/br/downloads/)<br>
+💻 [Java](https://java.com/en/download/)<br>
+💻 [Microsfot Access](https://www.microsoft.com/pt-br/microsoft-365/p/access/cfq7ttc0k7q8)<br>
+💻 []()<br>
 ### 🖥 IDEs
-🖥 [Visual Studio Code]()<br>
-🖥 [Eclipse]()<br>
+🖥 [Visual Studio Code](https://code.visualstudio.com/)<br>
+🖥 [intellij IDEA](https://www.jetbrains.com/idea/)<br>
+🖥 [Eclipse](https://www.eclipse.org/)<br>
+🖥 [VisualG](http://visualg3.com.br/)<br>
+🖥 [Code::Blocks](https://www.codeblocks.org/)<br>
+🖥 [DevC++](https://dev-cpp.com/)<br>
 
+🖥 []()<br>
 ## 🎡 Playgrounds
 
   - C++ cpp.sh
