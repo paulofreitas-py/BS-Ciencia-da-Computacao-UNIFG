@@ -12,9 +12,11 @@ repositorio academico da cadeira Microcontroladores e IOT do 4º periodo de Ciê
 ## 📚 Links Uteis
 💻 [Notion - Anotações](https://www.notion.so)<br>
 💻 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
+🖥 [Simulador de Portas Logicas](https://purainfo.com.br/dica-simulador-de-portas-logicas-logic-gate-simulator/)<br>
 🖥 [Arduino CC](https://www.arduino.cc/en/software)<br>
 🖥 [Code::Blocks](https://www.codeblocks.org/)<br>
 🖥 [DevC++](https://dev-cpp.com/)<br>
+[]()<br>
 ## 👾Contribuidor
 
 <table>
