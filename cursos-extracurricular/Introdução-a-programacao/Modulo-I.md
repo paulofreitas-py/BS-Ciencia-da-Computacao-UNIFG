@@ -50,4 +50,16 @@ funcionamento. No entanto, isso está
 distante do usuário final e, portanto, é
 imperceptível.
 ```
+Máquina Analítica de
+Charles Babbage
 <img align='right' src="https://paulofreitasdev.files.wordpress.com/2021/08/6036de80f9e917060b83eff1_src.jpg" width="350"/>
+Um pouco
+mais de História
+Conheça a história dos
+primeiros computadores e
+perceba como estes
+dispositivos têm 
+evoluído ao longo do
+tempo.
+
+https://youtu.be/B1ZlccrOIiI
