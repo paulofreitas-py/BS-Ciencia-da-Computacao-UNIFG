@@ -8,7 +8,7 @@
 [Atividade II]()</br>
 ## Exercício para ser feliz ☺
 1 -  Determinar se um número é par ou ímpar e positivo ou negativo.
-Fazer um algorítimo e Pascal e C.
+Fazer um algorítimo e [Pascal](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/cco4-Paradigmas-de-Linguagem-de-Programa%C3%A7%C3%A3o/Atividades/Atividade-2/questao-1-pascal.pas) e [C](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/cco4-Paradigmas-de-Linguagem-de-Programa%C3%A7%C3%A3o/Atividades/Atividade-2/questao-1.c).
 
 2 - Ler três notas de um aluno, calcular a média e informar se ele foi aprovado
 ou reprovado.
