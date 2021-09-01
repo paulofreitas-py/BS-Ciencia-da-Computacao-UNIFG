@@ -20,7 +20,8 @@ xx
 🔖 [Geogebra](https://www.geogebra.org/)<br>
 🔖 [Canva - Slide](https://www.canva.com/)<br>
 
-  ## Professor
+  ## Anotações
+  [Notion](https://paulofreitaspy.notion.site/Paradigmas-de-Linguagem-de-Programa-o-7c2c3f305863465cbdedb952619201aa)
   ## Contribuidor
 
 <table>
