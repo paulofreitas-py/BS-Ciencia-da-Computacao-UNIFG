@@ -6,6 +6,8 @@
 
 [Atividade III]()</br>
 ## Exercício para ser feliz ☺
+Utilizar algoritmos OO - Orientado a Objetos como exemplos: Java, C# ou Typescript
+
 1 -  Determinar se um número é par ou ímpar e positivo ou negativo.
 
 2 - Ler três notas de um aluno, calcular a média e informar se ele foi aprovado
