@@ -3,7 +3,6 @@
 ![License](https://img.shields.io/badge/Java-learning-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-Paradigmas%20de%20Linguagem%20de%20Programação-yellow.svg)
 
-<img src="">
 
 [Atividade II]()</br>
 ## Exercício para ser feliz ☺
