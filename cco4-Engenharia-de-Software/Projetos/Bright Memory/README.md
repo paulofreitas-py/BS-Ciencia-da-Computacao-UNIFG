@@ -6,7 +6,6 @@
 
   <h3 align="center">"Um projeto para ajudar estudantes do mundo inteiro...."</h3>  
   
-<!-- TABLE OF CONTENTS -->
 
 <strong>Vem ver o projeto antes de ler a doc: </strong>[BrigthMemory](https://brightmemory-six.vercel.app)
 
@@ -67,13 +66,14 @@ Aqui está os por quês de usar o [BrigthMemory](https://brightmemory-six.vercel
 * [MongoDB](https://www.mongodb.com)
 * [Next-AuthJS](https://next-auth.js.org)
 
-<!-- LICENSE -->
+
 ## Licença
 
 Projeto distribuído sob a licença do MIT.  Veja  `LICENSE` para mais informações.
 
-<!-- CONTACT -->
 ## Grupo
 
-* [Instagram](https://www.instagram.com/paulofreitas.py)
-* Email: paulofreitas.cco@gmail.com
+<table>
+    <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br /><sub><b>Paulo Freitas</b></sub></a></br>
+  <td align="center"><a href="https://github.com/cristianm9"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/cristianm9" width="100px;" alt=""/><br /><sub><b>Cristian Brito</b></sub></a></br>
+  <td align="center"><a href="https://github.compaulo-campos-57"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/paulo-campos-57" width="100px;" alt=""/><br /><sub><b>Paulo Campos</b></sub></a></br>
