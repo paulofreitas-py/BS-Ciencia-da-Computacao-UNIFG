@@ -1,0 +1,50 @@
+.createCardModalContainer {
+  background: #f4f4f4;
+  height: 35rem;
+  width: 28rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.createCardModalContainer textarea {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 8rem;
+
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  resize: none;
+}
+
+.button {
+  border: none;
+  background: var(--green);
+
+  color: #f4f4f4;
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+
+  transition: all 0.25s linear;
+}
+
+.button:hover {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+@media screen and (min-width: 270px) and (max-width: 662px) {
+  .createCardModalContainer {
+    width: 26rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .createCardModalContainer {
+    width: 24.5rem;
+    padding: 1.5rem;
+  }
+}

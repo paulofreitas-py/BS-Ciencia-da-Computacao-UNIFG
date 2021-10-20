@@ -1,0 +1,40 @@
+.homeContainer {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  background: #f4f4f4;
+  overflow: hidden;
+}
+
+.signOutBtn {
+  border: none;
+  background: linear-gradient(
+    97.51deg,
+    #ff3900 7.88%,
+    rgba(255, 255, 255, 0) 280.05%
+  );
+  color: #f4f4f4;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.45rem;
+}
+
+.mainContent {
+  margin: 2rem 4rem;
+  width: 100%;
+}
+
+.mainContent > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 321px) and (max-width: 539px) {
+  .mainContent {
+    margin: 2rem 2rem;
+  }
+}
