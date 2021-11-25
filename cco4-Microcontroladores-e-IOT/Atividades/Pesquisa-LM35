@@ -1,0 +1,61 @@
+Utilizando uma placa LM 35, o grupo programou na IDE do arduíno para que o sensor ligado a placa medisse a temperatura do ambiente.A conexão do sensor com a placa foi feita na entrada A0, caso a entrada fosse trocada, as medidas mostradas pela IDE eram erradas.
+
+![photo_2021-11-14_13-35-38.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/005aa626-f2bd-4492-9258-13008c0613b0/photo_2021-11-14_13-35-38.jpg)
+
+O sensor LM35 também pode ser encontrado como um circuito integrado (CI), que é considerado um dispositivo de temperatura com precisão e tem uma tensão de saída linearmente proporcional à temperatura em graus Celsius.
+
+![esquema_lm35-1024x664.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa43eb33-51c1-41e4-abce-52033a0a439f/esquema_lm35-1024x664.jpg)
+
+De acordo com as informações contidas no datasheet do LM35, podemos tirar todas as informações úteis do componente. Este sensor de temperatura produz um sinal de tensão que varia 10mV para cada ºC, sendo que ele é capaz de operar em uma escala de temperatura que pode variar entre -55ºC até 150ºC.
+
+A proximidade entre o resultado medido e o verdadeiro valor do sinal produzido pode variar de + -0,4ºC até + -1,5ºC. Vale a pena destacar que a precisão do LM35 varia conforme as condições de tensão, corrente e temperatura. Essas informações podem ser encontradas no datasheet do dispositivo.
+
+Outra característica bem interessante do sensor LM35 é que ele extrai uma corrente da fonte de apenas 60μA, que em determinadas condições resulta em um auto-aquecimento extremamente baixo, menos de 0.1ºC. Em aplicações que a precisão é importante, essa variação de temperatura do LM35 deve ser levada em consideração..
+
+[O-que-e-lm35-600.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/86fd7768-5660-4d69-829a-93cf0a61f79f/O-que-e-lm35-600.webp)
+
+Mais um detalhe importante sobre este sensor, que ele geralmente é um componente muito pequeno, embora o LM35 tenha diversos encapsulamentos. Na imagem, siga SEGUE alguns detalhes sobre os tipos de encapsulamentos do LM35.
+
+[Encapsulamentos-do-LM35-600.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/559f69a8-2ebd-4be2-b1f5-fb3094d3b39d/Encapsulamentos-do-LM35-600.webp)
+
+através dos pinos externos e ligar o pino central do LM35 com um jumper no pino A0, devendo ter cuidado apenas para não inverter os pinos de alimentação do sensor. Pino 1 do LM35 é conectado com o +5 V do Arduino, o pino 2 vai conectado ao pino analógico A0 e o pino 3 do LM35 que é o negativo (terra) vai conectado ao GND do Arduino. 
+
+![photo_2021-11-14_13-35-28.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a6fada7-1c93-47de-a8ad-72a39581deec/photo_2021-11-14_13-35-28.jpg)
+
+![photo_2021-11-14_13-35-33.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bf715ac-f0a6-48a0-97e8-2aa53086b115/photo_2021-11-14_13-35-33.jpg)
+
+```arduino
+/*******************************************************************************************************
+------------------------------------Microcontroladores e IoT ---------------------------------------
+------------------------------------date : 09/11/2021------------------------------------------------
+------------------------------------função do programa: verificar a temperatura de um lm 35
+*******************************************************************************************************/
+
+#define pin_lm35 A0 //Pino o qual o sensor está conectado
+
+void setup() {
+Serial.begin(9600); // Inicia a comunicação com
+pinMode(pin_lm35, INPUT); // Define o sensor como uma entrada de sinal
+}
+
+void loop() {
+float valor_analog_lm35 = float(analogRead(pin_lm35)); // Obtém o valor analógico que varia de 0 a 1023
+float tensao = (valor_analog_lm35 * 6) / 1023; // Vamos converter esse valor para tensão elétrica
+float temperatura = tensao / 0.010; // dividimos a tensão por 0.010 que representa os 10 mV
+
+Serial.print("A temperatura eh ");
+Serial.println(temperatura); // Mostra na serial a temperatura do sensor
+
+delay(1000); // aguarda 1 segundo
+}
+```
+
+O programa tem a linha *delay(1000)*, ela gera um atraso de 1000ms com isso a leitura de temperatura é a cada 1 segundos, podemos alterar essa linha para visualizações de temperatura mais rápidas ou lentas..
+
+![serial_lm35-1024x427.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2084ddd6-11cc-464d-944c-3bfe8203875b/serial_lm35-1024x427.jpg)
+
+## Fontes:
+
+[Sensor de Temperatura LM35 - Primeiros Passos - Blog Usinainfo](https://www.usinainfo.com.br/blog/sensor-de-temperatura-lm35-primeiros-passos/)
+
+[SENSOR, tipos de sensores e APLICAÇÃO](https://youtu.be/Xx94b1UGSeI)
