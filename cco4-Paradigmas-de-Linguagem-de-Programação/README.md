@@ -6,7 +6,9 @@
 Repositorio academico da cadeira Paradigmas de Linguagem de Programação do 4º periodo de Ciência da Computação 
 
 ## Ementa do Curso
-xx
+Apresenta os principais conceitos relacionados aos diferentes paradigmas de programação com
+ênfase em suas características e recursos oferecidos. Utiliza uma linguagem de programação
+apropriada para o estudo de cada paradigma.
 ## 🛠 Tecnologias Usadas
 <br>
 <p align="center">
