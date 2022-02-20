@@ -10,7 +10,10 @@
 ![Logo](https://paulofreitasdev.files.wordpress.com/2021/05/intro.png)
 
 
-### Repositorio dedicado a todos os projetos/cadeiras praticas do curso Ciência da Computação UNIFG 2020-2024
+### Repositorio dedicado a todos os projetos/cadeiras praticas do curso Ciência da Computação UNIFG 2020-2023
+
+### [Documento - Apresentação de Projeto Pedagógico Bacharelado em Ciência da Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/ProjetoCCO.md)<br>
+
 ## >  Cadeiras 2020-2021
 ### 📚 1° Periodo 2020.1
 👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao)<br>
@@ -84,6 +87,8 @@
 - [SoloLearn](code.sololearn.com)<br>
 - [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)<br>
 - [Readme Editor](https://readme.so/pt)<br>
+
+
 ## 👾Contribuidor
 
 <table>
