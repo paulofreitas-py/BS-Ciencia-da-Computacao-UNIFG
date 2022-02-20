@@ -32,7 +32,16 @@
 🔖 [Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Engenharia-de-Software)<br>
 🔖 [Paradigmas de Linguagem de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Paradigmas-de-Linguagem-de-Programa%C3%A7%C3%A3o)<br>
 🔖 [Microcontroladores e IOT](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Microcontroladores-e-IOT)<br>
+🔖 [EAD - Fundamentos de Redes de Computadores](https://paulofreitaspy.notion.site/EAD-FUNDAMENTOS-DE-REDES-DE-COMPUTADORES-ab2c0577fd2744b6b8dd0b242f55f1de)<br>
 📐 Algebra Linear Computacional<br>
+
+### 📚 5° Periodo 2022.1
+🔖 [Práticas de Banco de Dados]()<br>
+🔖 [Desenvolvimento de Software para Web]()<br>
+🔖 [Práticas de Engenharia de Software]()<br>
+🔖 [Pesquisa, Ordenação e Técnicas de Armazenamento]()<br>
+🔖 [Análise de Algoritmos]()<br>
+🔖 [EAD - Antropologia e Cultura Brasileira]()<br>
 
 ## 🛠 Tecnologias Usadas
 <p align="left"> <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> </p>
