@@ -7,7 +7,9 @@ repositorio academico da cadeira Microcontroladores e IOT do 4º periodo de Ciê
 <img src=""  align="center" valign="center"/> 
 
  ## Ementa do Curso
-
+Aborda a evolução da arquitetura e organização de microcontroladores. Discute questões
+relacionadas ao conjunto básico de instruções, programação, modos de endereçamento, pilhas,
+organização de memórias e interfaces de comunicação
 
 ## Competência que vamos desenvolver
 * Trabalhar em Equipe
