@@ -1,4 +1,4 @@
-# CCO5 # Desenvolvimento de Software para Web
+# CCO5 Desenvolvimento de Software para Web
 
 ## Aulas
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
@@ -7,16 +7,14 @@
 
 Repositorio academico da cadeira Desenvolvimento de Software para Web do 5º periodo de Ciência da Computação,
 ## Ementa do Curso
- Apresenta os conceitos fundamentais da arquitetura de aplicações Web e propõe o
-desenvolvimento de um software utilizando uma linguagem de programação com conectividade
-a banco de dados. São abordados o modelo de três camadas e um framework utilizado no mercado
-de trabalho para desenvolvimento web.
+ Análise, projeto e modelagem de projetos orientado a objetos. Analisa de padrões de projeto,
+gerenciamento de configuração, incluindo gerenciamento de versões e release, qualidade de
+processo com seus modelos e engenharia de software orientada a serviços.
 
 ## 🛠 Tecnologias Usadas
 <br>
 <p align="center">
 <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
-<img alt="C" src="https://img.shields.io/badge/php%20-FF8800.svg?&style=for-the-badge&logo=php&logoColor=white"/>
 
 ## 📚 Links Uteis
 
