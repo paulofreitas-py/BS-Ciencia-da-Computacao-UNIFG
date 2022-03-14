@@ -1,6 +1,4 @@
-# CCO5 # Desenvolvimento de Software para Web
-
-## Aulas
+# CCO5  Desenvolvimento de Software para Web
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![License](https://img.shields.io/badge/-learning-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-blue.svg)
@@ -18,6 +16,9 @@ de trabalho para desenvolvimento web.
 <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 <img alt="C" src="https://img.shields.io/badge/php%20-FF8800.svg?&style=for-the-badge&logo=php&logoColor=white"/>
 
+## Aulas
+💻[Aula - 01]()<br>
+💻[Aula - 02]()<br>
 ## 📚 Links Uteis
 
 🔖 [Notion - Anotações](https://www.notion.so)<br>
