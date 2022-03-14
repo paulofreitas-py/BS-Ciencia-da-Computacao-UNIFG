@@ -17,15 +17,20 @@ de trabalho para desenvolvimento web.
 <img alt="C" src="https://img.shields.io/badge/php%20-FF8800.svg?&style=for-the-badge&logo=php&logoColor=white"/>
 
 ## Aulas
-💻[Aula - 01]()<br>
-💻[Aula - 02](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula02)<br>
+💻[Aula - 01]()</br>
+💻[Aula - 02](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula02)</br>
 ## 📚 Links Uteis
 
-🔖 [Notion - Anotações](https://www.notion.so)<br>
-🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)<br>
-🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)<br>
-🔖 [Canva - Slide](https://www.canva.com/)<br>
+🔖 [Notion - Anotações](https://www.notion.so)</br>
+🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)</br>
+🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)</br>
+🔖 [Canva - Slide](https://www.canva.com/)</br>
 
+## Cursos Grátis 
+[HTML5 e CSS3 +120 aulas](https://alunos.b7web.com.br/curso/html5-e-css3/o-que-e-html-e-pra-que-serve)</br>
+[JavaScript +60 Aulas](https://alunos.b7web.com.br/curso/javascript/introducao)</br>
+[Rocketseat - Discover](https://www.rocketseat.com.br/discover)</br>
+[Curso em Video +20 Cursos](https://www.cursoemvideo.com)</br>
   ## Anotações
   [Notion]()
   ## Contribuidor
