@@ -18,7 +18,7 @@ de trabalho para desenvolvimento web.
 
 ## Aulas
 💻[Aula - 01]()<br>
-💻[Aula - 02](cco5-Desenvolvimento-de-Software-para-Web\Aula02)<br>
+💻[Aula - 02](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula02)<br>
 ## 📚 Links Uteis
 
 🔖 [Notion - Anotações](https://www.notion.so)<br>
