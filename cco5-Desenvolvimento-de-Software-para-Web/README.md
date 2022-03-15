@@ -13,8 +13,15 @@ de trabalho para desenvolvimento web.
 ## 🛠 Tecnologias Usadas
 <br>
 <p align="center">
-<img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
-<img alt="C" src="https://img.shields.io/badge/php%20-FF8800.svg?&style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" />
+</br>
+
+
+
+
 
 ## Aulas
 💻[Aula - 01]()</br>
@@ -26,7 +33,7 @@ de trabalho para desenvolvimento web.
 🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)</br>
 🔖 [Canva - Slide](https://www.canva.com/)</br>
 
-## Cursos Grátis 
+## Cursos Grátis de Desenvolvimento Web
 [HTML5 e CSS3 +120 aulas](https://alunos.b7web.com.br/curso/html5-e-css3/o-que-e-html-e-pra-que-serve)</br>
 [JavaScript +60 Aulas](https://alunos.b7web.com.br/curso/javascript/introducao)</br>
 [Rocketseat - Discover](https://www.rocketseat.com.br/discover)</br>
