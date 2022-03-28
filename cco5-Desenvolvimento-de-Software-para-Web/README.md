@@ -19,19 +19,18 @@ de trabalho para desenvolvimento web.
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" />
 </br>
 
-
-
-
-
 ## Aulas
-💻[Aula - 01]()</br>
-💻[Aula - 02](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula02)</br>
+💻[Aula - 02]()</br>
+💻[Aula - 02]()</br>
+💻[Aula - 03](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula03)</br>
 ## 📚 Links Uteis
 
 🔖 [Notion - Anotações](https://www.notion.so)</br>
 🔖 [IMD - Material Didaticos](https://materialpublic.imd.ufrn.br/)</br>
 🔖 [Biblioteca Online - Academicos](https://plataforma.bvirtual.com.br/)</br>
 🔖 [Canva - Slide](https://www.canva.com/)</br>
+🔖 [Dontpad](http://dontpad.com/)</br>
+🔖 []()</br>
 
 ## Cursos Grátis de Desenvolvimento Web
 [HTML5 e CSS3 +120 aulas](https://alunos.b7web.com.br/curso/html5-e-css3/o-que-e-html-e-pra-que-serve)</br>
@@ -40,10 +39,11 @@ de trabalho para desenvolvimento web.
 [Curso em Video +20 Cursos](https://www.cursoemvideo.com)</br>
   ## Anotações
   [Notion]()
-  ## Contribuidor
+  ## Contribuidor 
 
 <table>
     <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br /><sub><b>Paulo Freitas</b></sub></a></br>
   
 ## Ajude o Universitario a pagar seu Café
-<p align="center">><a href="https://www.buymeacoffee.com/paulofreitas.py"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulofreitas.py" /></a></p><br>
+<p align="center"><a href="https://www.buymeacoffee.com/paulofreitas.py"> 
+<img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulofreitas.py" /></a></p><br>
