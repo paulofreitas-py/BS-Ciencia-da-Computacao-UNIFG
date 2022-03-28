@@ -10,19 +10,19 @@ desenvolvimento de um software utilizando uma linguagem de programação com con
 a banco de dados. São abordados o modelo de três camadas e um framework utilizado no mercado
 de trabalho para desenvolvimento web.
 
-## 🛠 Tecnologias Usadas
-<br>
-<p align="center">
+## 🛠 Tecnologias
+<p align="cenhttp://dontpad.com/ter">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" />
-</br>
+ <img src="" width="50" /></br> 
 
 ## Aulas
-💻[Aula - 02]()</br>
+💻[Aula - 01]()</br>
 💻[Aula - 02]()</br>
 💻[Aula - 03](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula03)</br>
+💻[Aula - 04](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Desenvolvimento-de-Software-para-Web/Aula04)</br>
+💻Aula - 05
 ## 📚 Links Uteis
 
 🔖 [Notion - Anotações](https://www.notion.so)</br>
