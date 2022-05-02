@@ -1,0 +1,31 @@
+
+body {
+    background-color: rgb(196, 161, 161);
+  }
+  
+.container {
+    position: relative
+}
+.nav {
+    position: aboslute;
+    left: 0px;
+    width: 200px;
+}
+.section {
+    margin-left: 200px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+.body {
+    margin-bottom: 120px;
+}
