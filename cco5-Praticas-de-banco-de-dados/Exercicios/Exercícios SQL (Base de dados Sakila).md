@@ -5,7 +5,7 @@
 # Exercícios SQL (Base de dados Sakila)
 
 ## Documentação 
-![Banco de dados Sakila](https://www.notion.so/paulofreitaspy/Exerc-cios-SQL-Base-de-dados-Sakila-0180189ba2dc4798abf939fddddbe68d)
+[Banco de dados Sakila](https://www.notion.so/paulofreitaspy/Exerc-cios-SQL-Base-de-dados-Sakila-0180189ba2dc4798abf939fddddbe68d)
 
 1. Lista de todos os filmes
 
