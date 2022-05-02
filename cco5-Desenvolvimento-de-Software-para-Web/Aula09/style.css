@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(196, 161, 161);
+  }
+  .img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+.body {
+    margin-bottom: 120px;
+}
