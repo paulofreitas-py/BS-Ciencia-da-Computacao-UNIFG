@@ -7,219 +7,260 @@
 ## Documentação 
 [Banco de dados Sakila](https://www.notion.so/paulofreitaspy/Exerc-cios-SQL-Base-de-dados-Sakila-0180189ba2dc4798abf939fddddbe68d)
 
-1. Lista de todos os filmes
 
+
+1. LISTAR TODOS OS FILMES.
 ```sql
-SELECT * 
-FROM film;
+SELECT * FROM FILM;
 ```
 
-2. Lista do titulo de todos os filmes
-
+2. LISTAR FILMES E ATORES QUE ATUARAM NESTES.
 ```sql
-SELECT title 
-FROM film;
+SELECT F.TITLE, A.FIRST_NAME, A.LAST_NAME
+FROM FILM F, FILM_ACTOR FA, ACTOR A
+WHERE F.FILM_ID = FA.FILM_ID AND A.ACTOR_ID = FA.ACTOR_ID;
 ```
 
-3. Lista de filmes com duração menor do que 60 minutos
-
+7. LISTAR O PRIMEIRO E O ÚLTIMO NOME DOS ATORES (ACTOR) ORDENADOS POR ULTIMO NOME E PRIMEIRO NOME
 ```sql
-SELECT *
-FROM film
-WHERE length < 60;
+SELECT LAST_NAME, FIRST_NAME
+FROM ACTOR
+ORDER BY LAST_NAME ASC, FIRST_NAME ASC;
 ```
 
-4. Lista dos clientes inativos
 
-
+8. LISTAR APENAS O PRIMEIRO E O ULTIMO NOME DOS CLIENTES INATIVOS
 ```sql
-
-SELECT *
-FROM customer
-WHERE active = 0;
-
+SELECT FIRST_NAME, LAST_NAME
+FROM CUSTOMER
+WHERE ACTIVE NOT LIKE 1;
 ```
 
-5. Lista dos clientes ativos e respectivos endereços
-
-
+9. LISTAR O TÍTULO DOS FILMES (FILM) COM DURAÇÃO ENTRE 60 E 80 MINUTOS.
 ```sql
-
-SELECT first_name, last_name, address
-FROM customer c, address a
-WHERE active = 1 AND c.address_id = a.address_id;
-
+SELECT TITLE FROM FILM
+WHERE LENGTH BETWEEN 60 AND 80;
 ```
 
-6. Lista dos nomes dos clientes residentes no Brasil.
+10. LISTAR O TÍTULO DOS FILMES COM PREÇO DE LOCAÇÃO ABAIXO DE 1 DÓLAR, ORDENADOS PELO TÍTULO DE FORMA DECRESCENTE
 ```sql
-SELECT first_name, last_name, a.address, co.country
-FROM customer c, address a, city ct, country co
-WHERE c.address_id = a.address_id
-	AND a.city_id = ct.city_id 
-	AND ct.country_id = co.country_id
-    AND co.country = "Brazil";
+SELECT TITLE FROM FILM
+WHERE RENTAL_RATE < 1
+ORDER BY TITLE DESC;
 ```
 
-7. Relação de filmes e atores que atuaram no mesmo
-
+11. LISTAR TÍTULO, PREÇO DE LOCAÇÃO E CUSTO DE SUBSTITUIÇÃO DOS FILMES COM CUSTO DE SUBSTITUIÇÃO ACIMA DE 20 DÓLARES, MAS QUE TENHAM PREÇO DE LOCAÇÃO ABAIXO DE 3 DÓLARES. ORDENAR PELO CUSTO DE SUBSTITUIÇÃO SEGUIDO PELO PREÇO DE LOCAÇÃO
 ```sql
-SELECT f.title, a.first_name, a.last_name
-FROM film f, film_actor fa, actor a
-WHERE f.film_id = fa.film_id AND a.actor_id = fa.actor_id
-
+SELECT TITLE, RENTAL_RATE, REPLACEMENT_COST
+FROM FILM
+WHERE REPLACEMENT_COST > 20
+AND RENTAL_RATE < 3
+ORDER BY REPLACEMENT_COST ASC, RENTAL_RATE ASC;
 ```
 
-8. Relação de filmes e atores que atuaram no mesmo ordenada por filme
-
+12. QUAL A MÉDIA DO PREÇO DE LOCAÇÃO?
 ```sql
-
-SELECT f.title, a.first_name, a.last_name
-FROM film f, film_actor fa, actor a
-WHERE f.film_id = fa.film_id AND a.actor_id = fa.actor_id
-ORDER BY f.title
-
+SELECT AVG(RENTAL_RATE) AS MEDIA_PRECO_LOCACAO
+FROM FILM;
 ```
 
-9. Relação de filmes e atores que atuaram no mesmo ordenada por ator
-
+13. QUANTOS FILMES TEM DURAÇÃO DE 120 MINUTOS OU MAIS?
 ```sql
-
-SELECT f.title, a.first_name, a.last_name
-FROM film f, film_actor fa, actor a
-WHERE f.film_id = fa.film_id AND a.actor_id = fa.actor_id
-ORDER BY a.first_name
-
+SELECT TITLE FROM FILM
+WHERE LENGTH >= 120;
 ```
 
-10. Relação de filmes com participação de um ator específico.
-
+14. QUAL O FILME COM CUSTO DE SUBSTITUIÇÃO MAIS CARO?
 ```sql
-
-SET @ator := "scarlett";
-
-SELECT f.title, a.first_name, a.last_name
-FROM film f, film_actor fa, actor a
-WHERE f.film_id = fa.film_id AND a.actor_id = fa.actor_id
-AND a.first_name = @ator;
-
+SELECT TITLE, MAX(REPLACEMENT_COST) AS MAIS_CARO
+FROM FILM;
 ```
 
-11. Quantidade total de filmes
-
+15. QUAL A MENOR DURAÇÃO DE LOCAÇÃO
 ```sql
-
-SELECT COUNT(*) qtd_filmes
-FROM film;
-
+SELECT MIN(F.RENTAL_DURATION) AS MENOR_DURACAO
+FROM FILM F;
 ```
 
-12. Duração média dos filmes
-
+#16 LISTAR O TÍTULO DOS FILMES COM PREÇO DE LOCAÇÃO ACIMA DA MÉDIA
 ```sql
-
-SELECT AVG(length)
-FROM film;
-
+SELECT TITLE, RENTAL_RATE
+FROM FILM
+WHERE RENTAL_RATE > (SELECT AVG(RENTAL_RATE) FROM FILM);
 ```
 
-13. Lista de filmes por categoria.
-
+17. LISTAR O TÍTULO DOS FILMES COM MAIOR DURAÇÃO DE LOCAÇÃO
 ```sql
-SELECT f.title, c.name 
-FROM film f,category c, film_category fc
-WHERE f.film_id = fc.film_id
-  AND fc.category_id = c.category_id;
+SELECT TITLE FROM FILM
+WHERE LENGTH = (
+    SELECT MAX(LENGTH) FROM FILM
+);
 ```
 
-14. Quantidade de filmes por categoria.
-
+18. LISTAR O TÍTULO DOS FILMES COM MENOR CUSTO DE SUBSTITUIÇÃO
 ```sql
-SELECT c.name, COUNT(*)
-FROM film f,category c, film_category fc
-WHERE f.film_id = fc.film_id AND fc.category_id = c.category_id
-GROUP BY c.name;
-
+SELECT TITLE FROM FILM
+WHERE REPLACEMENT_COST = (
+    SELECT MIN(REPLACEMENT_COST) FROM FILM
+);
 ```
 
-15. Duração média dos filmes por categoria
-
+19. QUAIS CIDADES DO BRASIL ESTÃO CADASTRADAS NO SISTEMA?
 ```sql
-
-SELECT c.name, AVG(f.length)
-FROM film f,category c, film_category fc
-WHERE f.film_id = fc.film_id 
-  AND fc.category_id = c.category_id
-GROUP BY c.name;
-
+SELECT CY.CITY FROM CITY CY, COUNTRY CR
+WHERE CY.COUNTRY_ID = CR.COUNTRY_ID
+AND CR.COUNTRY = 'BRAZIL';
 ```
 
-16. Quantidade de filmes por categoria das categorias com menos de 57 filmes
-
+20. LISTAR O NOME DOS CLIENTES, A CIDADE E O PAÍS ONDE MORAM
 ```sql
-
-SELECT c.name, COUNT(*) qtd
-FROM film f,category c, film_category fc
-WHERE f.film_id = fc.film_id AND fc.category_id = c.category_id
-GROUP BY c.name
-HAVING qtd < 57;
-
+SELECT CS.FIRST_NAME, CS.LAST_NAME, CI.CITY, CN.COUNTRY
+FROM CUSTOMER CS, COUNTRY CN, CITY CI, ADDRESS A
+WHERE CN.COUNTRY_ID = CI.COUNTRY_ID
+AND CI.CITY_ID = A.CITY_ID
+AND A.ADDRESS_ID = CS.ADDRESS_ID;
 ```
 
-17. Duração média dos filmes por categoria das categorias com menos de 57 filmes
-
+21. LISTAR O TÍTULO DO FILME E SUA(S) RESPECTIVA(S) CATEGORIA(S)
 ```sql
-SELECT c.name, COUNT(*) qtd, AVG(f.length)
-FROM film f,category c, film_category fc
-WHERE f.film_id = fc.film_id AND fc.category_id = c.category_id
-GROUP BY c.name
-HAVING qtd < 57;
-
+SELECT F.TITLE, C.NAME
+FROM FILM F, CATEGORY C, FILM_CATEGORY FC
+WHERE F.FILM_ID = FC.FILM_ID
+AND FC.CATEGORY_ID = C.CATEGORY_ID;
 ```
 
-18. Quantidade de filmes alugados por cliente
-
+22. LISTAR A QUANTIDADE DE FILMES POR CATEGORIA
 ```sql
-
-SELECT c.first_name, c.last_name, COUNT(*)
-FROM customer c, rental r
-WHERE c.customer_id = r.customer_id
-GROUP BY (c.customer_id);
-
+SELECT C.NAME, COUNT(*)
+FROM FILM F, CATEGORY C, FILM_CATEGORY FC
+WHERE F.FILM_ID = FC.FILM_ID
+AND FC.CATEGORY_ID = C.CATEGORY_ID
+GROUP BY C.NAME;
 ```
 
-19. Quantidade de filmes alugados por cliente em ordem decrescente de quantidade de filmes alugados
-
+23. LISTAR A QUANTIDADE DE FILMES POR CATEGORIA APENAS DAS CATEGORIAS COM MENOS DE 57 FILMES.
 ```sql
-
-SELECT c.first_name, c.last_name, COUNT(*) qtd
-FROM customer c, rental r
-WHERE c.customer_id = r.customer_id
-GROUP BY (c.customer_id)
-ORDER BY qtd desc;
-
+SELECT C.NAME, COUNT(*) QTD
+FROM FILM F, CATEGORY C, FILM_CATEGORY FC
+WHERE F.FILM_ID = FC.FILM_ID AND FC.CATEGORY_ID = C.CATEGORY_ID
+GROUP BY C.NAME
+HAVING QTD < 57;
 ```
 
-20. Relação de nomes dos clientes que possuem um filme alugado no momento
-
+24. LISTAR A DURAÇÃO MÉDIA DOS FILMES POR CATEGORIA APENAS DAS CATEGORIAS COM MENOS DE 57 FILMES.
 ```sql
-SELECT c.first_name, c.last_name
-FROM customer c
-WHERE EXISTS (SELECT 1 
-	FROM rental r
-    WHERE c.customer_id = r.customer_id AND r.return_date IS NOT NULL);
-
+SELECT C.NAME, COUNT(*) QTD, AVG(F.LENGTH)
+FROM FILM F, CATEGORY C, FILM_CATEGORY FC
+WHERE F.FILM_ID = FC.FILM_ID AND FC.CATEGORY_ID = C.CATEGORY_ID
+GROUP BY C.NAME
+HAVING QTD < 57;
 ```
 
-21. Relação de nomes dos clientes que não possuem um filme alugado no momento 
-
+25. QUAIS ATORES TRABALHARAM NO FILME 'GOLD RIVER'?
 ```sql
-
-SELECT c.first_name, c.last_name
-FROM customer c
-WHERE NOT EXISTS (SELECT 1 
-	FROM rental r
-    WHERE c.customer_id = r.customer_id AND r.return_date IS NOT NULL);
-
+SELECT ACT.FIRST_NAME, ACT.LAST_NAME
+FROM FILM F, FILM_ACTOR FA, ACTOR ACT
+WHERE F.FILM_ID = FA.FILM_ID
+AND ACT.ACTOR_ID = FA.ACTOR_ID
+AND F.TITLE = 'GOLD RIVER';
 ```
 
+26. QUAIS FILMES A ATRIZ 'MILLA KEITEL' TRABALHOU?
+```sql
+SELECT F.TITLE, A.FIRST_NAME, A.LAST_NAME
+FROM FILM F, FILM_ACTOR FA, ACTOR A
+WHERE F.FILM_ID = FA.FILM_ID AND A.ACTOR_ID = FA.ACTOR_ID
+AND A.FIRST_NAME = 'MILLA' AND A.LAST_NAME = 'KEITEL';
+```
+
+27. LISTAR OS 5 PAÍSES COM O MAIOR NÚMERO DE CLIENTES
+```sql
+SELECT CN.COUNTRY, COUNT(CS.CUSTOMER_ID) AS QTD
+FROM CUSTOMER CS, COUNTRY CN, CITY CY, ADDRESS A
+WHERE CS.ADDRESS_ID = A.ADDRESS_ID
+AND A.CITY_ID = CY.CITY_ID
+AND CY.COUNTRY_ID = CN.COUNTRY_ID
+GROUP BY CN.COUNTRY
+ORDER BY QTD DESC LIMIT 5;
+``
+
+28. LISTAR TODOS OS CLIENTES QUE ALUGARAM FILME DE TERROR
+```sql
+SELECT CS.FIRST_NAME, CS.LAST_NAME, COUNT(CS.CUSTOMER_ID) AS QTD, CT.NAME
+FROM CUSTOMER CS
+INNER JOIN RENTAL R ON R.CUSTOMER_ID = CS.CUSTOMER_ID
+INNER JOIN INVENTORY I ON R.INVENTORY_ID = I.INVENTORY_ID
+INNER JOIN FILM F ON I.FILM_ID = F.FILM_ID
+INNER JOIN FILM_CATEGORY FG ON F.FILM_ID = FG.FILM_ID
+INNER JOIN CATEGORY CT ON FG.CATEGORY_ID = CT.CATEGORY_ID
+WHERE CT.NAME = 'HORROR'
+GROUP BY CS.CUSTOMER_ID;
+```
+
+29. LISTAR TODOS OS CLIENTES QUE ALUGARAM MAIS DE 3 FILMES DE TERROR
+```sql
+SELECT CS.FIRST_NAME, CS.LAST_NAME, COUNT(CS.CUSTOMER_ID) AS QTD, CT.NAME
+FROM CUSTOMER CS
+INNER JOIN RENTAL R ON R.CUSTOMER_ID = CS.CUSTOMER_ID
+INNER JOIN INVENTORY I ON R.INVENTORY_ID = I.INVENTORY_ID
+INNER JOIN FILM F ON I.FILM_ID = F.FILM_ID
+INNER JOIN FILM_CATEGORY FG ON F.FILM_ID = FG.FILM_ID
+INNER JOIN CATEGORY CT ON FG.CATEGORY_ID = CT.CATEGORY_ID
+WHERE CT.NAME = 'HORROR'
+GROUP BY CS.CUSTOMER_ID
+HAVING QTD > 3;
+```
+
+30. LISTAR O PRIMEIRO E O ULTIMO NOME DOS ATORES E ATRISES COM 'SON' NO ÚLTIMO NOME. ORDENAR PELO PRIMEIRO NOME
+```sql
+SELECT FIRST_NAME, LAST_NAME
+FROM ACTOR
+WHERE LAST_NAME LIKE '%SON%'
+ORDER BY FIRST_NAME ASC;
+```
+
+31. LISTAR OS NOMES COMPLETOS DOS CLIENTES QUE RESIDENTES NO BRASIL. DEVEM SER CONCATENADOS PRIMEIRO E ÚLTIMO NOME
+```sql
+SELECT CS.FIRST_NAME, CS.LAST_NAME
+FROM CUSTOMER CS, COUNTRY CN, CITY CI, ADDRESS A
+WHERE CN.COUNTRY_ID = CI.COUNTRY_ID
+AND CI.CITY_ID = A.CITY_ID
+AND A.ADDRESS_ID = CS.ADDRESS_ID
+AND CN.COUNTRY = 'BRAZIL';
+```
+
+32. LISTAR CLIENTES ATIVOS E SEUS RESPECTIVOS ENDEREÇOS
+```sql
+SELECT FIRST_NAME, LAST_NAME, ADDRESS
+FROM CUSTOMER C, ADDRESS A
+WHERE ACTIVE = 1 AND C.ADDRESS_ID = A.ADDRESS_ID;
+```
+
+33. LISTAR A QUANRIDADE DE FILMES ALUGADOS POR  CLIENTE EM ORDEM DECRESCENTE DE QUANTIDADE DE FILMES ALUGADOS.
+```sql
+SELECT C.FIRST_NAME, C.LAST_NAME, COUNT(*) QTD
+FROM CUSTOMER C, RENTAL R
+WHERE C.CUSTOMER_ID = R.CUSTOMER_ID
+GROUP BY (C.CUSTOMER_ID)
+ORDER BY QTD DESC;
+```
+
+34. LISTAR NOME DOS CLIENTES QUE POSSUEM FILME ALUGADO NO MOMENTO.
+```sql
+SELECT C.FIRST_NAME, C.LAST_NAME
+FROM CUSTOMER C
+WHERE EXISTS
+        (SELECT 1
+        FROM RENTAL R
+        WHERE C.CUSTOMER_ID = R.CUSTOMER_ID AND R.RETURN_DATE IS NOT NULL);
+```
+ 
+35. LISTAR NOME DOS CLIENTES QUE NÃO POSSUEM FILME ALUGADO NO MOMENTO.
+```sql
+SELECT C.FIRST_NAME, C.LAST_NAME
+FROM CUSTOMER C
+WHERE NOT EXISTS
+        (SELECT 1
+        FROM RENTAL R
+        WHERE C.CUSTOMER_ID = R.CUSTOMER_ID AND R.RETURN_DATE IS NOT NULL);
+```
