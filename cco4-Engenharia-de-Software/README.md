@@ -29,8 +29,7 @@ Configuração de Mudanças
 <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
 ## Programas Usados
 
-## Docs
-[Laboratorio](https://drive.google.com/drive/folders/1BoWJ3TucVHZmxlKePXeMtgyjQA5ahXn5?usp=sharing)
+
 ## Contribuidor
 
 <table>
