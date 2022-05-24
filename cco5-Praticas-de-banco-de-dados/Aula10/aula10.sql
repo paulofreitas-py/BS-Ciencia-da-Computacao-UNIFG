@@ -173,15 +173,6 @@ DELIMITER ;
 CALL RELATORIO(@MAXIMO, @MINIMO, @QTD);
 SELECT @MAXIMO, @MINIMO, @QTD;
 
-# Criar table logCLient
-CREATE TABLE logClient (
-codigoLog bigint unsigned not null auto_increment,
-CodCli int,
-conteudo varchar(300),
-operacao varchar(6),
-dataHora timestamp,
-
-
 CREATE TABLE LOGCLIENTE (
   CODIGOLOG BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
     CODCLI INT,
