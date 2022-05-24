@@ -1,0 +1,2 @@
+CREATE SCHEMA Aula11;
+USE Aula11;
