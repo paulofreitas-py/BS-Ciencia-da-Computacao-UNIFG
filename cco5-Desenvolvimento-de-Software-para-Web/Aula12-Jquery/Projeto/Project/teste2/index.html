@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube sasafada</title>
+</head>
+<body>
+    <div id="vid">
+        <span id="frame"></span>
+        <a href="#"><h1 id="close">X</h1></a>
+        </div>
+    <style>
+        #video{
+        position: absolute;
+        top: 200px;
+        bottom: 400px;
+        left: 400px;
+        right: 400px;
+        display: none;
+        }
+        #close{
+        font-family: arial;
+        color: black;
+        position: absolute;
+        top: 100px;
+        left: 250px;
+        display: none
+        }</style>
+
+<script>
+
+$(document).ready(function(){
+    $('#play').click(function(){
+    $('#frame').html('<iframe width="640" height="360" src="https://www.youtube.com/embed/VNtYWDpdQ1w?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" frameborder="0" allowfullscreen id="video"></iframe>');
+    $('#video').css('display', 'block');
+    $('#video').css('position', 'fixed');
+    $('#close').css('position', 'fixed');
+    $('#close').css('display', 'block');
+    $('#play').css('opacity', '0.5');
+    });
+    });
+    
+    $(document).ready(function(){
+    $('#close').click(function(){
+    $('#frame').html('');
+    $('#play').data('clicked', 'no');
+    $('#video').css('display', 'none');
+    $('#close').css('display', 'none');
+    $('#play').css('opacity', '1');
+    });
+    }); </script>
+</body>
+</html>

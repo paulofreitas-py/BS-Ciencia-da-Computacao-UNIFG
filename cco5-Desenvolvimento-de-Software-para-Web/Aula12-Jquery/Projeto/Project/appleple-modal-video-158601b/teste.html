@@ -1,0 +1,35 @@
+<script>
+    $(document).ready(function(){
+$('#play').click(function(){
+$('#video').css('display', 'block');
+$('#video').css('position', 'fixed');
+$('#close').css('position', 'fixed');
+$('#close').css('display', 'block');
+$('#play').css('opacity', '0.5');
+});
+});
+
+$(document).ready(function(){
+$('#close').click(function(){
+$('#play').data('clicked', 'no');
+$('#video').css('display', 'none');
+$('#close').css('display', 'none');
+$('#play').css('opacity', '1');
+});
+});
+</script>
+<body>
+    <div id="play">
+    <button>Play Video</button>
+    
+    <img src="1.jpg" />
+    <img src="2.jpg" />
+    <img src="3.jpg" />
+    <img src="4.jpg" />
+    </div>
+    
+    <div id="vid">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/VNtYWDpdQ1w?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" frameborder="0" allowfullscreen id="video"></iframe>
+    <a href="#"><h1 id="close">X</h1></a>
+    </div>
+    </body>
