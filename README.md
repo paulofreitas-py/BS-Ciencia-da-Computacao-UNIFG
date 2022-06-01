@@ -1,4 +1,4 @@
-# BS Ciência da Computação
+# BS. Ciência da Computação
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=CCO&message=Ciencia%20da%20Computacao&color=ff6347&style&logo=ghost"/>
@@ -12,7 +12,7 @@
 
 ### Repositorio dedicado a todos os projetos/cadeiras praticas do curso Ciência da Computação UNIFG 2020-2023
 
-### [Documento - Apresentação de Projeto Pedagógico Bacharelado em Ciência da Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/ProjetoCCO.md)<br>
+#### [Documento - Apresentação de Projeto Pedagógico Bacharelado em Ciência da Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/ProjetoCCO.md)<br>
 
 ## >  Cadeiras 2020-2021
 ### 📚 1° Periodo 2020.1
@@ -39,14 +39,19 @@
 📐 Algebra Linear Computacional<br>
 
 ### 📚 5° Periodo 2022.1
-🔖 [Práticas de Banco de Dados]()<br>
-🔖 [Desenvolvimento de Software para Web]()<br>
-🔖 [Práticas de Engenharia de Software]()<br>
+🔖 [Desenvolvimento de Software para Web](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Desenvolvimento-de-Software-para-Web)<br>
+🔖 [Práticas de Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Praticas-de-banco-de-dados)<br>
+🔖 [Práticas de Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Pr%C3%A1ticas-de-Engenharia-de-Software)<br>
 🔖 [Pesquisa, Ordenação e Técnicas de Armazenamento]()<br>
-🔖 [Análise de Algoritmos]()<br>
 🔖 [EAD - Antropologia e Cultura Brasileira]()<br>
 
-## 🛠 Tecnologias Usadas
+## 🛠 Ferramentas 
+<p align="left"> <a> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="MVS" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" alt="Apache" width="40" height="40"/>
+</p>
+
+## 🛠 Tecnologias 
 <p align="left"> <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> 
 <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
 <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
@@ -55,7 +60,9 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" /> </p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" width="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" />
+</p>
 
 ## 📚 Links Uteis
 
@@ -103,4 +110,4 @@
     <td align="center"><a href="https://github.com/paulofreitas-py"><img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/42820569?s=400&u=756d1c6a756b352a1095e7cb9289d3170f909765&v=4" width="100px;" alt=""/><br/><sub><b>Paulo Freitas</b></sub>
 
 <a href="https://www.buymeacoffee.com/paulofreitas.py"><img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulofreitas.py"/>
-
+</table>
