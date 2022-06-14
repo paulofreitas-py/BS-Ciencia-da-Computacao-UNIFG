@@ -17,6 +17,7 @@ Exemplo 5 | E
 ## PROVA 2 - Parte Prática
 ![UML](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc3b9bd4f-6c55-4fa9-a2c2-980862073471%2Fimage1.png?table=block&id=31621614-8a15-4a7c-9de4-3cbd1e16bf0f&spaceId=0160e3d7-f64c-4703-9546-c82f4c335a71&width=2000&userId=f502dd5d-b5d2-4453-bf51-6ebe19e7ad0f&cache=v2)
 
+[MySQL Data Base](cco5-Praticas-de-banco-de-dados\Avaliação-N2\mysqlsampledatabase.sql)
 ## Questão 1 (Procedures - 1,5 pontos).  
 Altere a tabela customers incluindo o campo full name. Escreva um procedimento que  para um dado código (customerNumber) irá inserir o nome completo do contato no novo  campo criado na tabela, baseado em seu primeiro e último nome (contactFirstName e  contactLastName). 
 DICA: Usar a função CONCAT ( ) para fazer a junção dos nomes. 
