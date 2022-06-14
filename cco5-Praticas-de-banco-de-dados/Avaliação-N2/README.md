@@ -76,7 +76,6 @@ return
   group by fullname
 )
 ~~~
-
 ## Docs
 
 [Scripts Prova Prática]()
