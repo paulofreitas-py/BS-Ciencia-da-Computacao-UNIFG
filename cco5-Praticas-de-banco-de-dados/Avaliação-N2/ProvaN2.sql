@@ -1,0 +1,2 @@
+CREATE SCHEMA ProvaN2;
+USE ProvaN2
