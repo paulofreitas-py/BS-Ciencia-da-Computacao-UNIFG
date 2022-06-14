@@ -1,8 +1,20 @@
 # N2 - CCO5 Práticas de Banco de Dados
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
-![License](https://img.shields.io/badge/-learning-red.svg)
+![License](https://img.shields.io/badge/Avaliação-N2-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-Práticas%20de%20Banco%20de%20Dados-blue.svg)
 
+## PROVA 2 - Parte Teórica
+[Prova Pratica de BD - Teórica](https://www.notion.so/paulofreitaspy/N2-14-06-22-d157abe6a61143fe80256db758b7fec3#84b6a3b47347450d968dd669db50f45e)
+
+Gabarito   | Resposta
+--------- | ------
+Exemplo 1 | B
+Exemplo 2 | E
+Exemplo 3 | C
+Exemplo 4 | A
+Exemplo 5 | E
+
+## PROVA 2 - Parte Prática
 ![UML](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc3b9bd4f-6c55-4fa9-a2c2-980862073471%2Fimage1.png?table=block&id=31621614-8a15-4a7c-9de4-3cbd1e16bf0f&spaceId=0160e3d7-f64c-4703-9546-c82f4c335a71&width=2000&userId=f502dd5d-b5d2-4453-bf51-6ebe19e7ad0f&cache=v2)
 
 ## Questão 1 (Procedures - 1,5 pontos).  
@@ -25,6 +37,7 @@ Esta é uma linha de código
 ~~~
 
 ## Docs
+
 [Scripts Prova Prática]()
 
 [Notion - Documentação](https://paulofreitaspy.notion.site/N2-14-06-22-d157abe6a61143fe80256db758b7fec3)
