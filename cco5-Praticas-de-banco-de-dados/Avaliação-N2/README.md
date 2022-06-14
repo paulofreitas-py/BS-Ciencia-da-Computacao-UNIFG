@@ -22,7 +22,13 @@ Exemplo 5 | E
 Altere a tabela customers incluindo o campo full name. Escreva um procedimento que  para um dado código (customerNumber) irá inserir o nome completo do contato no novo  campo criado na tabela, baseado em seu primeiro e último nome (contactFirstName e  contactLastName). 
 DICA: Usar a função CONCAT ( ) para fazer a junção dos nomes. 
 ~~~sql
-Esta é uma linha de código
+Esta é umareate procedure sp_customer (user_customer_id int)
+ select concat('full name: ', contactFirstName,' ', contactLastName)
+    as CustomerName
+    from customers
+    where customerNumber = user_customer_id;
+
+call sp_customer (103); linha de código
 ~~~
 ## Questão 2 (Triggers - 1,5 pontos).  
 Escreva um trigger que automaticamente atualize a quantidade de produtos no estoque  (tabela products) para toda vez que um novo pedido for realizado (tabela orderdetails),  devendo decrementar a quantidade pedida de um produto do total contido em estoque. 
@@ -56,7 +62,19 @@ DELIMITER ;
 Escreva uma function que para um dado cliente e pedido, retorna o total a pagar para o  pedido especificado. 
 DICA: Usar sum ( ) para fazer o somatório e junção de tabelas.
 ~~~sql
-Esta é uma linha de código
+create function pedido_especifico(id int)
+returns char(20), int
+return
+(
+  SELECT concat(c.contactFirstName,' ',c.contactLastName) as fullname, SUM(od.priceEach) as total
+  FROM customers as c
+  INNER JOIN orders as o
+  ON c.customerNumber = o.customerNumber
+  inner join orderdetails as od
+  ON od.orderNumber = o.orderNumber
+  where od.orderNumber = id
+  group by fullname
+)
 ~~~
 
 ## Docs
