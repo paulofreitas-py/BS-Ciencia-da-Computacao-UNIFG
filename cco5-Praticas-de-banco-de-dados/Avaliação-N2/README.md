@@ -27,7 +27,29 @@ Esta é uma linha de código
 Escreva um trigger que automaticamente atualize a quantidade de produtos no estoque  (tabela products) para toda vez que um novo pedido for realizado (tabela orderdetails),  devendo decrementar a quantidade pedida de um produto do total contido em estoque. 
 DICA: O trigger deve ser AFTER INSERT na tabela orderdetails. 
 ~~~sql
-Esta é uma linha de código
+DELIMITER //
+CREATE PROCEDURE SP_ATUALIZAESTOQUE('ID_PROD' INT, 'QUANTIDADECOMPRADA' INT, VALORUNIT DECIMAL(9,2))
+BEGIN
+  DECLARE CONTADOR INT(11);
+    SELECT COUNT(*) INTO CONTADOR FROM PRODUCTS WHERE PRODUCTCODE = ID_PROD;
+    
+    IF CONTADOR > 0 THEN
+    UPDATE PRODUCTS SET QUANTITYINSTOCK = QUANTITYINSTOCK + QUANTIDADECOMPRADA, BUYPRICE = VALORUNIT
+        WHERE PRODUCTCODE = ID_PROD;
+  ELSE 
+    INSERT INTO PRODUCTS (PRODUCTCODE, QUANTITYINSTOCK, BUYPRICE) 
+        VALUES (ID_PROD, QUANTIDADECOMPRADA, VALORUNIT);
+  END IF;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER TRG_ENTRADAPRODUTO AFTER INSERT ON ORDERDETAILS
+FOR EACH ROW
+BEGIN
+  CALL SP_ATUALIZAESTOQUE (NEW.ID_PROD, NEW.QUANTIDADECOMPRADA, NEW.VALORUNIT);
+END //
+DELIMITER ;
 ~~~
 ## Questão 3 (Functions - 2,0 pontos). 
 Escreva uma function que para um dado cliente e pedido, retorna o total a pagar para o  pedido especificado. 
