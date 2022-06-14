@@ -1,6 +1,7 @@
 CREATE SCHEMA Aula09;
 USE Aula09;
 
+
 CREATE TABLE cliente (
 codCli int primary key,
 nomeCli varchar(30),
