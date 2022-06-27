@@ -14,36 +14,37 @@
 
 #### [Documento - Apresentação de Projeto Pedagógico Bacharelado em Ciência da Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/ProjetoCCO.md)<br>
 
-## >  Cadeiras 2020-2021
-### 📚 1° Periodo 2020.1
-👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao)<br>
-📖 [Fundamentos Para Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Fundamentos-Para-Computa%C3%A7%C3%A3o)<br>
-📖 [Sistemas Digitais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Sistemas-Digitais)<br>
-📐 [Matematica](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Matematica)<br>
-### 📚 2° Periodo 2020.2
-👨‍💻 [Técnicas de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Tecnicas-de-Programacao)<br>
-🔖 [Sistemas Operacionais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Sistemas-Operacionais)<br>
-📖 [Interface Humano Computador](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Interface-Homem-Computador)<br>
-📖 [Arquitetura e Organização de](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Arquitetura-e-Organizacao-de-Computadores)<br>
-### 📚 3° Periodo 2021.1
-👨‍💻 [Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Banco-de-Dados)<br>
-👨‍💻 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)<br>
-👨‍💻 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)<br>
- 📐[Cálculo Aplicado - Uma Variável](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Calculo-Aplicado)<br>
 
-### 📚 4° Periodo 2021.2
-🔖 [Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Engenharia-de-Software)<br>
-🔖 [Paradigmas de Linguagem de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Paradigmas-de-Linguagem-de-Programa%C3%A7%C3%A3o)<br>
-🔖 [Microcontroladores e IOT](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Microcontroladores-e-IOT)<br>
-🔖 [EAD - Fundamentos de Redes de Computadores](https://paulofreitaspy.notion.site/EAD-FUNDAMENTOS-DE-REDES-DE-COMPUTADORES-ab2c0577fd2744b6b8dd0b242f55f1de)<br>
-📐 Algebra Linear Computacional<br>
-
-### 📚 5° Periodo 2022.1
-🔖 [Desenvolvimento de Software para Web](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Desenvolvimento-de-Software-para-Web)<br>
-🔖 [Práticas de Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Praticas-de-banco-de-dados)<br>
-🔖 [Práticas de Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Pr%C3%A1ticas-de-Engenharia-de-Software)<br>
-🔖 [Pesquisa, Ordenação e Técnicas de Armazenamento]()<br>
-🔖 [EAD - Antropologia e Cultura Brasileira]()<br>
+Curso     | Duração     | Periodo                | Áreas de Atuação
+:--                | :--:        | :--:                     | :--     
+👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao) | 66hrs | 1 | 
+📖 [Fundamentos Para Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Fundamentos-Para-Computa%C3%A7%C3%A3o)| 66hrs | 1 |
+📖 [Sistemas Digitais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Sistemas-Digitais)| 66hrs | 1 |
+📐 [Matematica I](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Matematica)
+👨‍💻 [Técnicas de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Tecnicas-de-Programacao)| 66hrs | 2 |
+🔖 [Sistemas Operacionais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Sistemas-Operacionais)| 66hrs | 2 |
+📖 [Interface Humano Computador](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Interface-Homem-Computador)| 66hrs | 2 |
+📖 [Arquitetura e Organização de](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco2-Arquitetura-e-Organizacao-de-Computadores)| 66hrs | 2 |
+👨‍💻 [Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Banco-de-Dados)| 66hrs | 3 |
+👨‍💻 [Estrutura de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Estrutura-de-Dados)| 66hrs | 3 |
+👨‍💻 [Programação Orientada Objetos](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Programacao-Orientada-Obejtos)| 66hrs | 3 |
+ 📐[Cálculo Aplicado - Uma Variável](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco3-Calculo-Aplicado)| 66hrs | 3 |
+ 🔖 [Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Engenharia-de-Software)| 66hrs | 4 |
+🔖 [Paradigmas de Linguagem de Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Paradigmas-de-Linguagem-de-Programa%C3%A7%C3%A3o)| 66hrs | 4 |
+🔖 [Microcontroladores e IOT](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco4-Microcontroladores-e-IOT)| 66hrs | 4 |
+🔖 [EAD - Fundamentos de Redes de Computadores](https://paulofreitaspy.notion.site/EAD-FUNDAMENTOS-DE-REDES-DE-COMPUTADORES-ab2c0577fd2744b6b8dd0b242f55f1de)| 66hrs | 4 |
+📐 Algebra Linear Computacional | 66hrs | 4 |
+🔖 [Desenvolvimento de Software para Web](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Desenvolvimento-de-Software-para-Web)| 66hrs | 5 |
+🔖 [Práticas de Banco de Dados](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Praticas-de-banco-de-dados)| 66hrs | 5 |
+🔖 [Práticas de Engenharia de Software](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao-UNIFG/tree/main/cco5-Pr%C3%A1ticas-de-Engenharia-de-Software)| 66hrs | 5 |
+🔖 [Pesquisa, Ordenação e Técnicas de Armazenamento]()| 66hrs | 5 |
+🔖 [Análise de Algortimos]()| 33hrs | 5 |
+🔖 [EAD - Antropologia e Cultura Brasileira]()| 88hrs | 5 |
+🔖 [Sistemas Distribuídos]()| 66hrs | 6 |
+🔖 [Linguagens Formais e Autômatos]()| 66hrs | 6 |
+🔖 [Laboratório de Redes de Computadores]()| 66hrs | 6 |
+🔖 [Computação para Dispositivos Móveis]()| 66hrs | 6 |
+🔖 [EAD - Segurança e Auditoria de Sistemas]()| 66hrs | 6 |
 
 ## 🛠 Ferramentas 
 <p align="left"> <a> 
