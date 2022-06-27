@@ -1,3 +1,4 @@
+[versão PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/56faf680-b556-4b38-84a6-89e2e294636f/Cincia-da-Computao.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220627T194508Z&X-Amz-Expires=86400&X-Amz-Signature=59c37e5a70d27ae5b65ad87d624a50ef1570863619d03e935325cfee1ab9465f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Ci%25C3%25AAncia-da-Computa%25C3%25A7%25C3%25A3o.pdf%22&x-id=GetObject)
 ## APRESENTAÇÃO E DIFERENCIAIS DO CURSO
 O curso de Bacharelado em Ciência da Computação proporciona aos estudantes uma formação
 teórica e prática em computação, de modo que possam unir ambos os aspectos, tornando-se
@@ -139,44 +140,23 @@ Trata da fundamentação teórica da interação humano computador, entendendo a
 o projeto de interfaces e definindo a usabilidade e os métodos para avaliação. Também aborda o
 desenvolvimento de um protótipo de interface para dispositivos móveis e web.
 ### ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES
-Enfoca o funcionamento interno dos computadores eletrônicos digitais a partir do detalhamento
-dos componentes arquiteturais dos sistemas de propósito geral. Analisa desempenho, fatores
-limitantes e respectivas soluções, e abordagens tecnológicas. Estuda a eficiência da arquitetura na
-sua interação com os sistemas operacionais, dispositivos periféricos e programas aplicativos.
+Enfoca o funcionamento interno dos computadores eletrônicos digitais a partir do detalhamento dos componentes arquiteturais dos sistemas de propósito geral. Analisa desempenho, fatores limitantes e respectivas soluções, e abordagens tecnológicas. Estuda a eficiência da arquitetura na sua interação com os sistemas operacionais, dispositivos periféricos e programas aplicativos.
 ### SISTEMAS OPERACIONAIS
-Aborda os conceitos fundamentais de sistemas operacionais contextualizados em cenários reais
-onde estes conceitos são utilizados, incluindo máquinas virtuais, containers e computação em
-nuvem. Discute os princípios e os relacionamentos existentes entre os mecanismos de
-gerenciamento de processos, gerência de memória e entrada/saída e gerenciamento de arquivos.
-Inclui também estudos de caso dos principais sistemas operacionais utilizados na atualidade.
+Aborda os conceitos fundamentais de sistemas operacionais contextualizados em cenários reais onde estes conceitos são utilizados, incluindo máquinas virtuais, containers e computação em nuvem. Discute os princípios e os relacionamentos existentes entre os mecanismos de gerenciamento de processos, gerência de memória e entrada/saída e gerenciamento de arquivos. Inclui também estudos de caso dos principais sistemas operacionais utilizados na atualidade.
 ### TÉCNICAS DE PROGRAMAÇÃO
-Estuda a linguagem de programação estruturada apropriada à implementação de soluções
-computacionais que envolvam acesso direto a recursos de hardware. Debate como os diversos
-recursos disponíveis em um computador podem ser utilizados para acesso, processamento e
-controle de dados.
+Estuda a linguagem de programação estruturada apropriada à implementação de soluções computacionais que envolvam acesso direto a recursos de hardware. Debate como os diversos recursos disponíveis em um computador podem ser utilizados para acesso, processamento e controle de dados.
 ### DESENVOLVIMENTO HUMANO E SOCIAL
 Apresenta as transformações do ser humano e das relações de trabalho nas diferentes
 configurações geográficas e na evolução tecnológica e discute o ser humano no mercado de
 trabalho sob a perspectiva da cidadania e sustentabilidade.
 ### PROGRAMAÇÃO ORIENTADA A OBJETOS
-Apresenta os principais conceitos do paradigma de orientação a objetos, com ênfase em suas
-principais características e recursos oferecidos. São examinadas implementações de aplicações
-práticas, baseadas em uma linguagem de programação orientada a objetos e um ambiente
-integrado de desenvolvimento.
+Apresenta os principais conceitos do paradigma de orientação a objetos, com ênfase em suas principais características e recursos oferecidos. São examinadas implementações de aplicações práticas, baseadas em uma linguagem de programação orientada a objetos e um ambiente integrado de desenvolvimento.
 ### BANCO DE DADOS
-A disciplina aborda os conceitos sobre sistema de banco de dados e arquitetura de um sistema de
-gerência de banco de dados. Enfoca modelos de dados, modelo entidade-relacionamento e suas 
-extensões, e no modelo relacional. Apresenta a álgebra relacional e instruções SQL de definição
-e manipulação de dados.
+A disciplina aborda os conceitos sobre sistema de banco de dados e arquitetura de um sistema de gerência de banco de dados. Enfoca modelos de dados, modelo entidade-relacionamento e suas  extensões, e no modelo relacional. Apresenta a álgebra relacional e instruções SQL de definição e manipulação de dados.
 ### ESTRUTURA DE DADOS
-Explora o conhecimento de soluções clássicas e atuais de problemas por meio de abstração
-utilizando conjuntos de dados, operações e representações de listas, pilhas, filas e árvores,
-apoiados em métodos e técnicas, tendo como subsídio uma linguagem de programação.
+Explora o conhecimento de soluções clássicas e atuais de problemas por meio de abstração utilizando conjuntos de dados, operações e representações de listas, pilhas, filas e árvores, apoiados em métodos e técnicas, tendo como subsídio uma linguagem de programação.
 ### CÁLCULO APLICADO - UMA VARIÁVEL
-São introduzidos novos conceitos e formalismos matemáticos essenciais ao desenvolvimento do
-pensamento analítico-abstrato e ao estudo de funções de uma variável real, mostrando a
-importância e a aplicação de conceitos tais como limites, derivadas e integrais como ferramentas
-indispensáveis na resolução de problemas de cinemática.
+São introduzidos novos conceitos e formalismos matemáticos essenciais ao desenvolvimento do pensamento analítico-abstrato e ao estudo de funções de uma variável real, mostrando a importância e a aplicação de conceitos tais como limites, derivadas e integrais como ferramentas indispensáveis na resolução de problemas de cinemática.
 ### ESTATÍSTICA APLICADA AO DATA SCIENCE
 A disciplina explora o escopo e a natureza multidisciplinar da ciência de dados com foco na
 solução de problemas usando dados em várias áreas. Estuda como as ferramentas analíticas
@@ -184,85 +164,37 @@ podem ser usadas para descobrir padrões e significado nos dados. Desenvolve a m
 exploradora de estruturas de ciência de dados, podendo ser aplicadas a qualquer setor, empresa
 ou organização.
 ### MICROCONTROLADORES E IOT
-Aborda a evolução da arquitetura e organização de microcontroladores. Discute questões
-relacionadas ao conjunto básico de instruções, programação, modos de endereçamento, pilhas,
-organização de memórias e interfaces de comunicação.
+Aborda a evolução da arquitetura e organização de microcontroladores. Discute questões relacionadas ao conjunto básico de instruções, programação, modos de endereçamento, pilhas, organização de memórias e interfaces de comunicação.
 ### ENGENHARIA DE SOFTWARE
-Apresentar os conceitos de engenharia de software, os processos de software e produtos de
-software. Abordar os ciclos de vida de sistemas e seus paradigmas, engenharia de requisitos,
-validação, verificação e teste de software, além de manutenção e evolução de software. Enfoca
-projeto de software orientado a objetos, com diagramas UML. Gerência e Configuração de
-Mudanças
+Apresentar os conceitos de engenharia de software, os processos de software e produtos de software. Abordar os ciclos de vida de sistemas e seus paradigmas, engenharia de requisitos, validação, verificação e teste de software, além de manutenção e evolução de software. Enfoca projeto de software orientado a objetos, com diagramas UML. Gerência e Configuração de Mudanças.
 ### ÁLGEBRA LINEAR COMPUTACIONAL
-A disciplina apresenta os principais resultados da teoria de matrizes, determinantes, sistemas
-lineares, espaços e subespaços vetoriais. Discute a modelagem e compreensão de fenômenos que
-se comportam linearmente. Utiliza métodos computacionais para resolução numérica de
-problemas matriciais.
+A disciplina apresenta os principais resultados da teoria de matrizes, determinantes, sistemas lineares, espaços e subespaços vetoriais. Discute a modelagem e compreensão de fenômenos que se comportam linearmente. Utiliza métodos computacionais para resolução numérica de problemas matriciais.
 ### PARADIGMAS DE LINGUAGEM DE PROGRAMAÇÃO
-Apresenta os principais conceitos relacionados aos diferentes paradigmas de programação com
-ênfase em suas características e recursos oferecidos. Utiliza uma linguagem de programação
-apropriada para o estudo de cada paradigma.
+Apresenta os principais conceitos relacionados aos diferentes paradigmas de programação com ênfase em suas características e recursos oferecidos. Utiliza uma linguagem de programação apropriada para o estudo de cada paradigma.
 ### FUNDAMENTOS DE REDES DE COMPUTADORES EAD
-Analisa aspectos teóricos e científicos da composição e formação dos sistemas de redes de
-computadores, suas formas de apresentação, camadas, protocolos, aplicações científicas e de
-mercado. Aprofunda as temáticas que tratam dos equipamentos e soluções tecnológicas que
-podem ser utilizados para a interligação de computadores em rede.
+Analisa aspectos teóricos e científicos da composição e formação dos sistemas de redes de computadores, suas formas de apresentação, camadas, protocolos, aplicações científicas e de Mercado. Aprofunda as temáticas que tratam dos equipamentos e soluções tecnológicas que podem ser utilizados para a interligação de computadores em rede.
 ### PRÁTICAS DE BANCO DE DADOS
-Explora a arquitetura interna dos sistemas de banco de dados. Apresenta catálogo do sistema,
-gatilho, otimização de consultas, conceitos de transação, de controle de concorrência de segurança
-e autorização em banco de dados. Discute business Intelligence (BI), mineração de dados, big
-data e data warehouse, além de noções sobre banco de dados NoSQL e Mineração de Dados.
+Explora a arquitetura interna dos sistemas de banco de dados. Apresenta catálogo do sistema, gatilho, otimização de consultas, conceitos de transação, de controle de concorrência de segurança e autorização em banco de dados. Discute business Intelligence (BI), mineração de dados, big data e data warehouse, além de noções sobre banco de dados NoSQL e Mineração de Dados.
 ### PRÁTICAS DE ENGENHARIA DE SOFTWARE
-Análise, projeto e modelagem de projetos orientado a objetos. Analisa de padrões de projeto,
-gerenciamento de configuração, incluindo gerenciamento de versões e release, qualidade de
-processo com seus modelos e engenharia de software orientada a serviços.
+Análise, projeto e modelagem de projetos orientado a objetos. Analisa de padrões de projeto, gerenciamento de configuração, incluindo gerenciamento de versões e release, qualidade de processo com seus modelos e engenharia de software orientada a serviços.
 ### DESENVOLVIMENTO DE SOFTWARE PARA WEB
-Apresenta os conceitos fundamentais da arquitetura de aplicações Web e propõe o
-desenvolvimento de um software utilizando uma linguagem de programação com conectividade
-a banco de dados. São abordados o modelo de três camadas e um framework utilizado no mercado
-de trabalho para desenvolvimento web.
+Apresenta os conceitos fundamentais da arquitetura de aplicações Web e propõe o desenvolvimento de um software utilizando uma linguagem de programação com conectividade a banco de dados. São abordados o modelo de três camadas e um framework utilizado no mercado de trabalho para desenvolvimento web.
 ### PESQUISA, ORDENAÇÃO E TÉCNICAS DE ARMAZENAMENTO
-Discute armazenamento e recuperação de informações em memória, abordando aspectos de
-tecnologia computacional envolvidos nas soluções. Apresenta técnicas específicas que trabalham
-com grandes volumes de dados, minimizando o seu tempo de ordenação, busca e acesso. Discute
-problemas por meio da análise de complexidade de algoritmos.
+Discute armazenamento e recuperação de informações em memória, abordando aspectos de tecnologia computacional envolvidos nas soluções. Apresenta técnicas específicas que trabalham com grandes volumes de dados, minimizando o seu tempo de ordenação, busca e acesso. Discute problemas por meio da análise de complexidade de algoritmos.
 ### ANÁLISE DE ALGORITMOS
-Aborda classes e métodos para a solução de problemas por meio do estudo da complexidade de
-diferentes tipos de algoritmos. A análise de desempenho dos algoritmos clássicos é realizada,
-considerando os possíveis casos. Problemas de decisão e relacionados à otimização combinatória
-também são discutidos.
+Aborda classes e métodos para a solução de problemas por meio do estudo da complexidade de diferentes tipos de algoritmos. A análise de desempenho dos algoritmos clássicos é realizada, considerando os possíveis casos. Problemas de decisão e relacionados à otimização combinatória também são discutidos.
 ### ANTROPOLOGIA E CULTURA BRASILEIRA
-Trata da construção do conhecimento antropológico e o objeto da antropologia. Analisa a
-constituição da sociedade brasileira em suas dimensões histórica, política e sociocultural; a
-diversidade da cultura brasileira e o papel dos grupos indígena, africano e europeu na formação
-do Brasil. Enfatiza o papel dos Direitos Humanos.
+Trata da construção do conhecimento antropológico e o objeto da antropologia. Analisa a constituição da sociedade brasileira em suas dimensões histórica, política e sociocultural; a diversidade da cultura brasileira e o papel dos grupos indígena, africano e europeu na formação do Brasil. Enfatiza o papel dos Direitos Humanos.
 ### SISTEMAS DISTRIBUÍDOS
-Aborda questões relacionadas ao projeto e gerenciamento de sistemas distribuídos, discussão de
-ambientes, modelos de comunicação e arquiteturas existentes, além de implementações de
-aplicações paralelas e distribuídas, como sistemas de arquivos distribuídos, sistemas de transações
-distribuídas, clusters, grids, computação em nuvem e web services.
+Aborda questões relacionadas ao projeto e gerenciamento de sistemas distribuídos, discussão de ambientes, modelos de comunicação e arquiteturas existentes, além de implementações de aplicações paralelas e distribuídas, como sistemas de arquivos distribuídos, sistemas de transações distribuídas, clusters, grids, computação em nuvem e web services.
 ### LINGUAGENS FORMAIS E AUTÔMATOS
-Estuda os conceitos e propriedades referentes às classes de linguagens, englobando as técnicas
-formais de geração, reconhecimento e representação. Neste contexto são estudados autômatos,
-gramáticas e as máquinas de Turing. Analisa também a computabilidade dos problemas.
+Estuda os conceitos e propriedades referentes às classes de linguagens, englobando as técnicas formais de geração, reconhecimento e representação. Neste contexto são estudados autômatos, gramáticas e as máquinas de Turing. Analisa também a computabilidade dos problemas.
 ### LABORATÓRIO DE REDES DE COMPUTADORES
-Implementa experimentos associados a equipamentos e técnicas de cabeamento de redes dos mais
-diversos eixos de aplicação. Constrói de diretrizes para interconectividade de redes, seja por meio
-Física ou meios de transmissão sem fio.
+Implementa experimentos associados a equipamentos e técnicas de cabeamento de redes dos mais diversos eixos de aplicação. Constrói de diretrizes para interconectividade de redes, seja por meio Física ou meios de transmissão sem fio.
 ### COMPUTAÇÃO PARA DISPOSITIVOS MÓVEIS
-Examina o projeto e implementação de sistemas computacionais onipresentes, ou seja, aplicações
-móveis, acessíveis por meio de quaisquer dispositivos computacionais e integráveis com
-aplicações existentes. Além disso, enfatiza aspectos práticos, por meio da utilização de
-ferramentas e linguagens de programação para o desenvolvimento de aplicações
-móveis.Implementa experimentos associados a equipamentos e técnicas de cabeamento de redes
-dos mais diversos eixos de aplicação. Constrói de diretrizes para interconectividade de redes, seja
-por meio Física ou meios de transmissão sem fio.
+Examina o projeto e implementação de sistemas computacionais onipresentes, ou seja, aplicações móveis, acessíveis por meio de quaisquer dispositivos computacionais e integráveis com aplicações existentes. Além disso, enfatiza aspectos práticos, por meio da utilização de ferramentas e linguagens de programação para o desenvolvimento de aplicações móveis.Implementa experimentos associados a equipamentos e técnicas de cabeamento de redes dos mais diversos eixos de aplicação. Constrói de diretrizes para interconectividade de redes, seja por meio Física ou meios de transmissão sem fio.
 ### SEGURANÇA E AUDITORIA DE SISTEMAS EAD
-Apresenta os conceitos e objetivos de segurança de informação. Identifica os tipos de ameaças,
-riscos e vulnerabilidades dos sistemas de informação. Aborda o planejamento, implementação e
-avaliação de políticas de segurança e a contingência dos ambientes computacionais. Estuda os 
-métodos e cálculos de criptografia com sua abrangência em diferentes cenários de
-desenvolvimento e aplicações. Trata de técnicas e modelos de auditoria de sistemas.
+Apresenta os conceitos e objetivos de segurança de informação. Identifica os tipos de ameaças, riscos e vulnerabilidades dos sistemas de informação. Aborda o planejamento, implementação e avaliação de políticas de segurança e a contingência dos ambientes computacionais. Estuda os  métodos e cálculos de criptografia com sua abrangência em diferentes cenários de desenvolvimento e aplicações. Trata de técnicas e modelos de auditoria de sistemas.
 ### INTELIGÊNCIA ARTIFICIAL E APRENDIZADO DE MÁQUINA
 Aborda conceitos de inteligência artificial e suas aplicações. Desenvolve raciocínio em lógica,
 com enfoque na resolução de problemas por meio de técnicas de buscas heurísticas e
