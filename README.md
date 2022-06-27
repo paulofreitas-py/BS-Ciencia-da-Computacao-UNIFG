@@ -17,9 +17,7 @@
 
 Curso     | Duração     | Periodo                | Descrição
 :--                | :--:        | :--:                     | :--     
-👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao) | 66hrs | 1 | Apresenta a definição, história e conceitos da Ciência da Computação. Examina definições das
-diferentes áreas, nomenclaturas, panorama do mercado de trabalho e novas tendências da área.
-Formaliza conceitos de lógica clássica, de lógica proposicional e de sistemas de numeração.
+👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao) | 66hrs | 1 | Apresenta a definição, história e conceitos da Ciência da Computação. Examina definições das diferentes áreas, nomenclaturas, panorama do mercado de trabalho e novas tendências da área. Formaliza conceitos de lógica clássica, de lógica proposicional e de sistemas de numeração.
 📖 [Fundamentos Para Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Fundamentos-Para-Computa%C3%A7%C3%A3o)| 66hrs | 1 |
 📖 [Sistemas Digitais](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Sistemas-Digitais)| 66hrs | 1 | Explora as técnicas para construção de portas lógicas e apresenta ferramentas para a síntese e
 análise de circuitos elementares, metodologias de projeto orientadas à combinação desses
