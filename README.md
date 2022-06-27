@@ -15,7 +15,7 @@
 #### [Documento - Apresentação de Projeto Pedagógico Bacharelado em Ciência da Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/blob/main/ProjetoCCO.md)<br>
 
 
-Curso     | Duração     | Periodo                | Áreas de Atuação
+Curso     | Duração     | Periodo                | Descrição
 :--                | :--:        | :--:                     | :--     
 👨‍💻 [Algoritmo e Programação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Algoritmo-e-Programacao) | 66hrs | 1 | 
 📖 [Fundamentos Para Computação](https://github.com/paulofreitas-py/BS-Ciencia-da-Computacao/tree/main/cco1-Fundamentos-Para-Computa%C3%A7%C3%A3o)| 66hrs | 1 |
